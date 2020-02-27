@@ -6,4 +6,163 @@
     android:layout_height="match_parent"
     tools:context=".sign.SignUpActivity">
 
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/signup_title"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        />
+
+    <EditText
+        android:id="@+id/edt_signup_name"
+        android:textSize="8pt"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:hint="@string/name"
+        android:background="@drawable/sign_in_box"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginStart="40dp"
+        android:layout_marginEnd="40dp"
+        android:paddingBottom="10dp"
+        android:paddingTop="10dp"
+        android:paddingStart="20dp"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_marginTop="140dp"/>
+
+    <EditText
+        android:id="@+id/edt_signup_age"
+        android:textSize="8pt"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:hint="@string/age"
+        android:background="@drawable/sign_in_box"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginStart="40dp"
+        android:layout_marginEnd="40dp"
+        android:paddingBottom="10dp"
+        android:paddingTop="10dp"
+        android:paddingStart="20dp"
+        app:layout_constraintTop_toBottomOf="@id/edt_signup_name"
+        android:layout_marginTop="20dp"/>
+
+    <RadioGroup
+        android:id="@+id/rg_gender_signup"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:layout_editor_absoluteY="128dp"
+        android:orientation="horizontal"
+        app:layout_constraintTop_toBottomOf="@id/edt_signup_age"
+        android:layout_marginTop="20dp"
+        android:weightSum="2"
+        android:layout_marginStart="40dp"
+        android:layout_marginEnd="40dp"
+        android:textAlignment="center">
+
+        <RadioButton
+            android:id="@+id/rg_btn_woman"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:buttonTint="#429946"
+            android:checked="true"
+            android:text="@string/gender_woman"
+            android:textSize="8pt"
+            android:layout_weight="1"/>
+
+        <RadioButton
+            android:id="@+id/rg_btn_man"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:buttonTint="#429946"
+            android:text="@string/gender_man"
+            android:textSize="8pt"
+            android:layout_weight="1"/>
+
+    </RadioGroup>
+
+    <EditText
+        android:id="@+id/edt_signup_id"
+        android:textSize="8pt"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:hint="@string/id"
+        android:background="@drawable/sign_in_box"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginStart="40dp"
+        android:layout_marginEnd="40dp"
+        android:paddingBottom="10dp"
+        android:paddingTop="10dp"
+        android:paddingStart="20dp"
+        app:layout_constraintTop_toBottomOf="@id/rg_gender_signup"
+        android:layout_marginTop="20dp"/>
+
+    <EditText
+        android:id="@+id/edt_signup_pw"
+        android:textSize="8pt"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:hint="@string/pw"
+        android:background="@drawable/sign_in_box"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginStart="40dp"
+        android:layout_marginEnd="40dp"
+        android:paddingBottom="10dp"
+        android:paddingTop="10dp"
+        android:paddingStart="20dp"
+        app:layout_constraintTop_toBottomOf="@id/edt_signup_id"
+        android:layout_marginTop="20dp"
+        android:inputType="textPassword"/>
+
+    <EditText
+        android:id="@+id/edt_signup_pw_check"
+        android:textSize="8pt"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:hint="@string/pwck"
+        android:background="@drawable/sign_in_box"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginStart="40dp"
+        android:layout_marginEnd="40dp"
+        android:paddingBottom="10dp"
+        android:paddingTop="10dp"
+        android:paddingStart="20dp"
+        app:layout_constraintTop_toBottomOf="@id/edt_signup_pw"
+        android:layout_marginTop="20dp"
+        android:inputType="textPassword"/>
+
+    <EditText
+        android:id="@+id/edt_signup_live"
+        android:textSize="8pt"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:hint="@string/live"
+        android:background="@drawable/sign_in_box"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginStart="40dp"
+        android:layout_marginEnd="40dp"
+        android:paddingBottom="10dp"
+        android:paddingTop="10dp"
+        android:paddingStart="20dp"
+        app:layout_constraintTop_toBottomOf="@id/edt_signup_pw_check"
+        android:layout_marginTop="20dp" />
+
+    <ImageButton
+        android:id="@+id/btn_signup_fin"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/signup_button"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/edt_signup_live"
+        android:layout_marginTop="50dp"/>
+
+
 </androidx.constraintlayout.widget.ConstraintLayout>

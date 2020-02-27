@@ -6,4 +6,59 @@
     android:layout_height="match_parent"
     tools:context=".sign.SignInActivity">
 
+    <EditText
+        android:id="@+id/edt_signin_id"
+        android:layout_width="0dp"
+        android:layout_height="52dp"
+        android:hint="@string/id"
+        android:textSize="14sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_marginTop="257dp"
+        android:background="@drawable/sign_in_box"
+        android:paddingStart="10pt"
+        android:layout_marginStart="30dp"
+        android:layout_marginEnd="30dp"
+        android:maxLines="1"/>
+
+    <EditText
+        android:id="@+id/edt_signin_pw"
+        android:layout_width="0dp"
+        android:layout_height="52dp"
+        android:hint="@string/pw"
+        android:textSize="14sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/edt_signin_id"
+        android:layout_marginTop="24dp"
+        android:background="@drawable/sign_in_box"
+        android:paddingStart="10pt"
+        android:layout_marginEnd="30dp"
+        android:layout_marginStart="30dp"
+        android:inputType="textPassword"
+        android:maxLines="1"/>
+
+    <TextView
+        android:id="@+id/txt_signup"
+        android:text="@string/signup"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/edt_signin_pw"
+        android:layout_marginTop="15dp"/>
+
+    <ImageButton
+        android:id="@+id/btn_login"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/login"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/txt_signup"
+        android:layout_marginTop="20dp"/>
+
+
+
 </androidx.constraintlayout.widget.ConstraintLayout>
