@@ -1,4 +1,4 @@
-# GreenMind-Android
+# GreenMind-Android - DSC Solution Challenge
 그린마인드 안드로이드 깃입니다.
 
 ### 1. 로그인 및 회원가입 화면 구성
