@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/nav_home"
+        android:icon="@drawable/ic_home_black_24dp"
+        android:title="홈" />
+
+    <item
+        android:id="@+id/nav_test"
+        android:icon="@drawable/ic_mode_edit_black_24dp"
+        android:title="진단"/>
+
+    <item
+        android:id="@+id/nav_info"
+        android:icon="@drawable/ic_filter_none_black_24dp"
+        android:title="정보"/>
+</menu>
