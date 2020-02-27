@@ -45,4 +45,7 @@ dependencies {
 
     //네비게이션바
     implementation 'com.android.support:design:29.0.2'
+
+    //리사이클러뷰
+    implementation 'androidx.recyclerview:recyclerview:1.1.0'
 }

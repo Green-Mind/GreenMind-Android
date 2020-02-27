@@ -18,13 +18,14 @@
     <com.google.android.material.bottomnavigation.BottomNavigationView
         android:id="@+id/bottom_navigation"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
+        android:layout_height="60dp"
         android:layout_alignParentBottom="true"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:menu="@menu/navigation_bar"
         app:itemTextColor="#FFFFFF"
-        android:background="#38813B"/>
+        android:background="#38813B"
+        app:layout_constraintTop_toBottomOf="@id/fragment_container"/>
 
 </androidx.constraintlayout.widget.ConstraintLayout>
