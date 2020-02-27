@@ -49,15 +49,18 @@
         app:layout_constraintTop_toBottomOf="@id/edt_signin_pw"
         android:layout_marginTop="15dp"/>
 
-    <ImageButton
+    <Button
         android:id="@+id/btn_login"
-        android:layout_width="wrap_content"
+        android:layout_width="150dp"
         android:layout_height="wrap_content"
-        android:src="@drawable/login"
+        android:background="@drawable/green_button"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toBottomOf="@id/txt_signup"
-        android:layout_marginTop="20dp"/>
+        android:layout_marginTop="20dp"
+        android:text="@string/btn_login"
+        android:textSize="9pt"
+        android:textColor="#ffffff"/>
 
 
 

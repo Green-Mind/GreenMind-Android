@@ -18,4 +18,11 @@
     <string name="live">사는 곳 "예) 서울시 마포구"</string>
 
     <string name="signup_fin">회원가입이 완료되었습니다.\n\n화면 아무곳이나 터치하여 다시 로그인 해주세요!</string>
+    <string name="btn_login">Login</string>
+    <string name="btn_signup">가입완료</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">이곳은 홈</string>
+    <string name="hello_blank_fragment2">이곳은 진단하는 곳</string>
+    <string name="hello_blank_fragment3">정보창</string>
 </resources>
