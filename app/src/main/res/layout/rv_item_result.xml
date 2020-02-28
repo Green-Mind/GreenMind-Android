@@ -17,6 +17,16 @@
         android:layout_marginBottom="10dp"
         android:background="@drawable/home_result">
 
+        <TextView
+            android:id="@+id/rv_date"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="2020-02-28"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="7dp"
+            android:textSize="8pt"/>
     </androidx.constraintlayout.widget.ConstraintLayout>
 
 </androidx.constraintlayout.widget.ConstraintLayout>

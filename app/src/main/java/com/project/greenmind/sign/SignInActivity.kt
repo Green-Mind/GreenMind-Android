@@ -4,7 +4,7 @@ import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.widget.Toast
-import com.project.greenmind.MainActivity
+import com.project.greenmind.homeFragment.MainActivity
 import com.project.greenmind.R
 import kotlinx.android.synthetic.main.activity_sign_in.*
 

@@ -1,11 +1,12 @@
-package com.project.greenmind
+package com.project.greenmind.homeFragment
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import androidx.fragment.app.Fragment
 import com.google.android.material.bottomnavigation.BottomNavigationView
+import com.project.greenmind.R
 import kotlinx.android.synthetic.main.activity_main.*
-
+// 프래그먼트 내부에 리사이클러뷰 만들기, 프래그먼트 안에 자체적으로 인텐트를 달 수가 없으므로 해결방안이 필요.
 class MainActivity : AppCompatActivity() {
 
     private val mOnNavigationiItemSelectedListener = BottomNavigationView.OnNavigationItemSelectedListener {item ->
