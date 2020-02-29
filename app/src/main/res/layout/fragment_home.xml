@@ -61,7 +61,7 @@
             android:id="@+id/txt_home_result"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text=""
+            android:text="@string/home_result_title"
             android:textSize="10pt"
             android:textStyle="bold"
             app:layout_constraintTop_toBottomOf="@id/box_home_profile"
