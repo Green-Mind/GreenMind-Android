@@ -14,7 +14,7 @@
             android:id="@+id/txt_home_profile"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="내 정보"
+            android:text="@string/home_profile_title"
             android:textSize="10pt"
             android:textStyle="bold"
             app:layout_constraintTop_toTopOf="parent"
@@ -37,7 +37,7 @@
                 android:id="@+id/txt_home_name"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="김덕성"
+                android:text="@string/home_profile_name"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toTopOf="parent"
                 android:layout_marginTop="32dp"
@@ -48,7 +48,7 @@
                 android:id="@+id/txt_home_live"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="서울시 도봉구"
+                android:text="@string/home_profile_live"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toBottomOf="@id/txt_home_name"
                 android:layout_marginTop="10dp"
@@ -61,7 +61,7 @@
             android:id="@+id/txt_home_result"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="결과 조회"
+            android:text=""
             android:textSize="10pt"
             android:textStyle="bold"
             app:layout_constraintTop_toBottomOf="@id/box_home_profile"
@@ -90,10 +90,10 @@
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintTop_toTopOf="parent"
             app:layout_constraintBottom_toBottomOf="parent"
-            android:layout_marginStart="40dp"
-            android:layout_marginEnd="40dp"
-            android:layout_marginTop="40dp"
-            android:layout_marginBottom="40dp"/>
+            android:layout_marginStart="25dp"
+            android:layout_marginEnd="17dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginBottom="20dp"/>
 
 
 

@@ -25,4 +25,11 @@
     <string name="hello_blank_fragment">이곳은 홈</string>
     <string name="hello_blank_fragment2">이곳은 진단하는 곳</string>
     <string name="hello_blank_fragment3">정보창</string>
+
+    <!--홈-->
+    <string name="home_profile_title">내 정보</string>
+    <string name="home_profile_name">김덕성</string>
+    <string name="home_profile_live">서울시 도봉구</string>
+    <string name="home_result_title">결과 조회</string>
+    <string name="rv_result_date">2020/02/28</string>
 </resources>
