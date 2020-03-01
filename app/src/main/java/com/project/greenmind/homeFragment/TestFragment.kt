@@ -18,8 +18,6 @@ import kotlinx.android.synthetic.main.fragment_test.*
 class TestFragment : Fragment() {
 
     private lateinit var next : Button
-    private lateinit var mainView : MainActivity
-
 
     override fun onCreateView(
         inflater: LayoutInflater, container: ViewGroup?,
