@@ -18,6 +18,8 @@ import kotlinx.android.synthetic.main.fragment_test.*
 class TestFragment : Fragment() {
 
     private lateinit var next : Button
+    private lateinit var mainView : MainActivity
+
 
     override fun onCreateView(
         inflater: LayoutInflater, container: ViewGroup?,
@@ -36,6 +38,16 @@ class TestFragment : Fragment() {
         }
 */
 
+/*
+
+
+        next.setOnClickListener {
+            //val fragmentTransaction = supportFragmentManager.beginTransaction()
+            //fragmentTransaction.replace(R.id.fragment_container, fragment)
+            //mainView.replaceFragment
+        }
+*/
+        next = view.findViewById(R.id.test_next)
 
         return view
     }
