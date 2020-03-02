@@ -8,5 +8,4 @@
 <img width="200" alt="home" src="https://user-images.githubusercontent.com/57608585/75652418-5b071380-5c9e-11ea-97f0-309cb03e7599.png">
 
 ### 3. 메인화면 (진단)
-<img width="200" alt="test" src="https://user-images.githubusercontent.com/57608585/75652527-a4eff980-5c9e-11ea-8804-01ee1ddb4ed2.png">  
-<img width="200" alt="test" src="https://user-images.githubusercontent.com/57608585/75652529-a6212680-5c9e-11ea-8593-1ae96c41774b.png">
+<img width="200" alt="test" src="https://user-images.githubusercontent.com/57608585/75652527-a4eff980-5c9e-11ea-8804-01ee1ddb4ed2.png">  <img width="200" alt="test" src="https://user-images.githubusercontent.com/57608585/75652529-a6212680-5c9e-11ea-8593-1ae96c41774b.png">
