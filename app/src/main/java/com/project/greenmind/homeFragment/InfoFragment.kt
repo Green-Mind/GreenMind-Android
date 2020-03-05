@@ -27,6 +27,6 @@ class InfoFragment : Fragment() {
             val intent = Intent(getActivity(), InfoDetailsActivity1::class.java)
             startActivity(intent)
         }
-        return view
-    }
+return view
+}
 }
