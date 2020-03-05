@@ -69,11 +69,16 @@
     </item>
 
     <!-- Background -->
-    <item>
-        <shape>
-            <solid android:color="#E6E4E4" />
+    <item
+        android:bottom="1dp"
+        android:left="1dp"
+        android:right="1dp"
+        android:top="1dp">
+        <shape
+            android:shape="rectangle">
+            <stroke android:color="#555"></stroke>
+            <solid android:color="#ffffff"/>
 
-            <corners android:radius="3dp" />
         </shape>
     </item>
 
