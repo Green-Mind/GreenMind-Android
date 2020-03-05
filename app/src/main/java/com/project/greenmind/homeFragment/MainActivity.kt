@@ -37,6 +37,9 @@ class MainActivity : AppCompatActivity() {
 
         replaceFragment(HomeFragment())
         bottom_navigation.setOnNavigationItemSelectedListener(mOnNavigationiItemSelectedListener)
+
+
+
     }
 
     fun replaceFragment(fragment: Fragment){

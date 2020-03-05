@@ -8,178 +8,173 @@
 
 
     <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/cl1"
         android:layout_width="match_parent"
         android:layout_height="match_parent">
 
         <TextView
             android:id="@+id/text_title"
-            android:layout_width="match_parent"
+            android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:layout_marginLeft="25dp"
+            android:layout_marginTop="15dp"
             android:text="건강 정보 안내"
             android:textSize="28dp"
             android:textStyle="bold"
             app:layout_constraintLeft_toLeftOf="parent"
             app:layout_constraintRight_toRightOf="parent"
-            app:layout_constraintTop_toTopOf="parent"
-            android:layout_marginLeft="25dp"
-            android:layout_marginTop="10dp"/>
-
-        <Button
-            android:id="@+id/btnName1"
-            android:layout_width="100dp"
-            android:layout_height="100dp"
-            android:backgroundTint="#CDFF94"
-            android:text="Name1"
-            android:layout_marginLeft="25dp"
-            android:layout_marginTop="25dp"
-            app:layout_constraintLeft_toLeftOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/text_explain"
-             />
-
-        <Button
-            android:id="@+id/btnName2"
-            android:layout_width="100dp"
-            android:layout_height="100dp"
-            android:backgroundTint="#CDFF94"
-            android:text="Name2"
-            android:layout_marginTop="25dp"
-            app:layout_constraintLeft_toLeftOf="parent"
-            app:layout_constraintRight_toRightOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/text_explain"
-             />
-
-        <Button
-            android:id="@+id/btnName3"
-            android:layout_width="100dp"
-            android:layout_height="100dp"
-            android:backgroundTint="#CDFF94"
-            android:text="Name3"
-            android:layout_marginRight="25dp"
-            android:layout_marginTop="25dp"
-            app:layout_constraintRight_toRightOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/text_explain"
-            />
-
-        <Button
-            android:id="@+id/btnName4"
-            android:layout_width="100dp"
-            android:layout_height="100dp"
-            android:backgroundTint="#CDFF94"
-            android:text="Name4"
-            android:layout_marginLeft="25dp"
-            android:layout_marginTop="30dp"
-            app:layout_constraintLeft_toLeftOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/btnName1"
-            />
-
-        <Button
-            android:id="@+id/btnName5"
-            android:layout_width="100dp"
-            android:layout_height="100dp"
-            android:backgroundTint="#CDFF94"
-            android:text="Name5"
-            android:layout_marginTop="30dp"
-            app:layout_constraintLeft_toLeftOf="parent"
-            app:layout_constraintRight_toRightOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/btnName2"
-            />
-
-        <Button
-            android:id="@+id/btnName6"
-            android:layout_width="100dp"
-            android:layout_height="100dp"
-            android:backgroundTint="#CDFF94"
-            android:text="Name6"
-            android:layout_marginRight="25dp"
-            android:layout_marginTop="30dp"
-            app:layout_constraintRight_toRightOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/btnName3"
-            />
-
-        <Button
-            android:id="@+id/btnName7"
-            android:layout_width="100dp"
-            android:layout_height="100dp"
-            android:backgroundTint="#CDFF94"
-            android:text="Name7"
-            android:layout_marginLeft="25dp"
-            android:layout_marginTop="30dp"
-            app:layout_constraintLeft_toLeftOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/btnName4"
-            />
-
-        <Button
-            android:id="@+id/btnName8"
-            android:layout_width="100dp"
-            android:layout_height="100dp"
-            android:backgroundTint="#CDFF94"
-            android:text="Name8"
-            android:layout_marginTop="30dp"
-            app:layout_constraintLeft_toLeftOf="parent"
-            app:layout_constraintRight_toRightOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/btnName5"
-            />
-
-        <Button
-            android:id="@+id/btnName9"
-            android:layout_width="100dp"
-            android:layout_height="100dp"
-            android:backgroundTint="#CDFF94"
-            android:text="Name9"
-            android:layout_marginRight="25dp"
-            android:layout_marginTop="30dp"
-            app:layout_constraintRight_toRightOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/btnName6"
-            />
-
-        <Button
-            android:id="@+id/btnName10"
-            android:layout_width="100dp"
-            android:layout_height="100dp"
-            android:backgroundTint="#CDFF94"
-            android:text="Name7"
-            android:layout_marginLeft="25dp"
-            android:layout_marginTop="30dp"
-            app:layout_constraintLeft_toLeftOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/btnName7"
-            />
-
-        <Button
-            android:id="@+id/btnName11"
-            android:layout_width="100dp"
-            android:layout_height="100dp"
-            android:backgroundTint="#CDFF94"
-            android:text="Name8"
-            android:layout_marginTop="30dp"
-            app:layout_constraintLeft_toLeftOf="parent"
-            app:layout_constraintRight_toRightOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/btnName8"
-            />
-
-        <Button
-            android:id="@+id/btnName12"
-            android:layout_width="100dp"
-            android:layout_height="100dp"
-            android:backgroundTint="#CDFF94"
-            android:text="Name9"
-            android:layout_marginRight="25dp"
-            android:layout_marginTop="30dp"
-            app:layout_constraintRight_toRightOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/btnName9"
-            />
+            app:layout_constraintStart_toStartOf="@+id/cl1"
+            app:layout_constraintTop_toTopOf="parent" />
 
         <TextView
-            android:id="@+id/text_explain"
+            android:id="@+id/title_explain"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="다음 아이콘을 클릭하면 자세한 건강 정보를 확인할 수 있습니다!"
-            app:layout_constraintTop_toBottomOf="@id/text_title"
-            app:layout_constraintBottom_toTopOf="@id/btnName1"
-            app:layout_constraintLeft_toLeftOf="parent"
-            app:layout_constraintRight_toRightOf="parent"
-            android:layout_marginLeft="25dp"
-            android:layout_marginTop="10dp"
-            android:layout_marginBottom="25dp"
-            />
+            android:layout_marginTop="15dp"
+            android:text="다음 아이콘을 클릭해 자세한 건강 정보를 확인하세요!"
+            app:layout_constraintStart_toStartOf="@+id/text_title"
+            app:layout_constraintTop_toBottomOf="@+id/text_title" />
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:id="@+id/cl2"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="100dp"
+            android:layout_marginEnd="10dp"
+            android:layout_marginBottom="10dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="@+id/title_explain"
+            app:layout_constraintTop_toBottomOf="@+id/title_explain"
+            app:layout_constraintVertical_bias="0.298">
+
+
+
+            <Button
+                android:id="@+id/button1"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:layout_marginStart="10dp"
+                android:layout_marginTop="20dp"
+                android:text="질병1"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <Button
+                android:id="@+id/button2"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:text="질병2"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="@+id/button1" />
+
+            <Button
+                android:id="@+id/button3"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:layout_marginEnd="10dp"
+                android:text="질병3"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintTop_toTopOf="@+id/button2" />
+
+            <Button
+                android:id="@+id/button4"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:layout_marginStart="10dp"
+                android:layout_marginTop="30dp"
+                android:text="질병4"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/button1" />
+
+            <Button
+                android:id="@+id/button5"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:layout_marginTop="30dp"
+                android:text="질병5"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/button2" />
+
+            <Button
+                android:id="@+id/button6"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:layout_marginTop="30dp"
+                android:layout_marginEnd="10dp"
+                android:text="질병6"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/button3" />
+
+            <Button
+                android:id="@+id/button7"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:layout_marginStart="10dp"
+                android:layout_marginTop="30dp"
+                android:text="질병7"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/button4" />
+
+            <Button
+                android:id="@+id/button8"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:layout_marginTop="30dp"
+                android:text="질병8"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/button5" />
+
+            <Button
+                android:id="@+id/button9"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:layout_marginTop="30dp"
+                android:layout_marginEnd="10dp"
+                android:text="질병9"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/button6" />
+
+            <Button
+                android:id="@+id/button10"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:layout_marginStart="10dp"
+                android:layout_marginTop="30dp"
+                android:text="질병10"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/button7" />
+
+            <Button
+                android:id="@+id/button11"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:layout_marginTop="30dp"
+                android:text="질병11"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/button8" />
+
+            <Button
+                android:id="@+id/button12"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:layout_marginTop="30dp"
+                android:layout_marginEnd="10dp"
+                android:text="질병12"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/button9" />
+        </androidx.constraintlayout.widget.ConstraintLayout>
+        </ScrollView>
     </androidx.constraintlayout.widget.ConstraintLayout>
 </FrameLayout>

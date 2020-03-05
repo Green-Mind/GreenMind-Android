@@ -14,17 +14,17 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-
-        <activity android:name=".sign.SignUpFinishActivity"/>
+        <activity android:name=".homeFragment.SubInfo"></activity>
+        <activity android:name=".sign.SignUpFinishActivity" />
         <activity android:name=".sign.SignUpActivity" />
-        <activity android:name=".sign.SignInActivity" >
+        <activity android:name=".sign.SignInActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".homeFragment.MainActivity"/>
+        <activity android:name=".homeFragment.MainActivity" />
     </application>
 
 </manifest>
