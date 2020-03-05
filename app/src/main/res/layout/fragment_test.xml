@@ -9,13 +9,38 @@
     <androidx.constraintlayout.widget.ConstraintLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent">
+
+        <ImageView
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintBottom_toTopOf="@id/test_start"
+            android:layout_width="150dp"
+            android:layout_height="50dp"
+            android:background="@drawable/start"
+            android:layout_marginBottom="60dp" />
+
         <Button
-            android:id="@+id/test_next"
+            android:id="@+id/test_start"
+            android:text="START"
+            android:layout_width="200dp"
+            android:layout_height="60dp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintBottom_toBottomOf="parent"
+            android:background="@drawable/green_button"
+            android:textColor="#ffffff"
+            android:textSize="10pt"/>
+
+        <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintTop_toTopOf="parent"/>
+            android:text="이곳에 주의사항 내용이 들어갈 예정"
+            app:layout_constraintTop_toBottomOf="@id/test_start"
+            android:layout_marginTop="30dp"/>
+
 
 
     </androidx.constraintlayout.widget.ConstraintLayout>

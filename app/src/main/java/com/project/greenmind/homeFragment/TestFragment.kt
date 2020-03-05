@@ -9,6 +9,7 @@ import android.view.View
 import android.view.ViewGroup
 import android.widget.Button
 import com.project.greenmind.R
+import com.project.greenmind.homeFragment.test_views.TestActivity1
 import kotlinx.android.synthetic.main.fragment_test.*
 
 /**
@@ -24,28 +25,13 @@ class TestFragment : Fragment() {
         savedInstanceState: Bundle?
     ): View? {
         // Inflate the layout for this fragment
-
         val view = inflater.inflate(R.layout.fragment_test, container, false)
 
-/*
-
-        next = view.findViewById(R.id.test_next)
+        next = view.findViewById(R.id.test_start)
         next.setOnClickListener {
-            val next = Intent(requireContext(), Test2Fragment::class.java)
-            startActivity(next)
+            val intent = Intent(getActivity(), TestActivity1::class.java)
+            startActivity(intent)
         }
-*/
-
-/*
-
-
-        next.setOnClickListener {
-            //val fragmentTransaction = supportFragmentManager.beginTransaction()
-            //fragmentTransaction.replace(R.id.fragment_container, fragment)
-            //mainView.replaceFragment
-        }
-*/
-        next = view.findViewById(R.id.test_next)
 
         return view
     }

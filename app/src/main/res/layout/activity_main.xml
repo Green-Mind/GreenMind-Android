@@ -24,8 +24,8 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:menu="@menu/navigation_bar"
-        app:itemTextColor="#FFFFFF"
-        android:background="#38813B"
+        app:itemTextColor="#4CAF50"
+        android:background="#FFFFFF"
         app:layout_constraintTop_toBottomOf="@id/fragment_container"/>
 
 </androidx.constraintlayout.widget.ConstraintLayout>
