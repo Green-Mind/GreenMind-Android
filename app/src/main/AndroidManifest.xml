@@ -14,7 +14,12 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".homeFragment.InfoDetailsActivity1"></activity>
+        <activity android:name=".homeFragment.Infomation.InfoDetailsActivity6" />
+        <activity android:name=".homeFragment.Infomation.InfoDetailsActivity5" />
+        <activity android:name=".homeFragment.Infomation.InfoDetailsActivity4" />
+        <activity android:name=".homeFragment.Infomation.InfoDetailsActivity3" />
+        <activity android:name=".homeFragment.Infomation.InfoDetailsActivity2" />
+        <activity android:name=".homeFragment.Infomation.InfoDetailsActivity1" />
         <activity android:name=".homeFragment.test_views.LastTestActivity" />
         <activity android:name=".homeFragment.test_views.TestActivity3" />
         <activity android:name=".homeFragment.test_views.TestActivity2" />

@@ -1,0 +1,187 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".homeFragment.Infomation.InfoDetailsActivity4">
+
+    <TextView
+        android:id="@+id/textTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="24dp"
+        android:text="편지쓰기 : 부모님에게/나에게"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_marginTop="84dp"
+        android:layout_marginBottom="16dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1.0"
+        tools:layout_editor_absoluteX="24dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <ImageView
+                android:id="@+id/imageLetter"
+                android:layout_width="200dp"
+                android:layout_height="200dp"
+                android:scaleType="center"
+                android:layout_gravity="center"
+                app:srcCompat="@drawable/info_letter" />
+
+            <TextView
+                android:id="@+id/textSub1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="24dp"
+                android:layout_marginTop="16dp"
+                android:layout_marginEnd="24dp"
+                android:textStyle="bold"
+                android:text="부모님에게 편지쓰기" />
+
+            <TextView
+                android:id="@+id/textDetails1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="24dp"
+                android:layout_marginEnd="24dp"
+                android:layout_marginTop="8dp"
+                android:text="\t많은 학생들은 부모님이 자신에게 관심이 없고 신경을 쓰지 않는다고 느낀다. 대부분의 부모님들은 자녀들에 대해 신경을 많이 쓰지만, 이를 말로 어떻게 표현해야 하는지 어떻게 해야 도움이 되는지 알지 못한다. 편지를 직접 전달할지의 여부를 떠나 글로 정리해보면서 어떠한 마음을 표현하고, 어떻게 전달할 수 있을지를 생각해 볼 수 있게 한다. 부모님에게 작성하는 것을 원치 않거나 여의치 않는다면 스스로에게 편지를 쓸 수도 있다. 나 자신에게 작성하는 편지를 통해 자해를 할 만큼 힘들었던 자신을 이해하고 보듬어주며 앞으로 자해행동을 하지 않고 소중히 자신을 돌볼 수 있도록 한다. " />
+
+            <TextView
+                android:id="@+id/textFooter1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="24dp"
+                android:layout_marginTop="4dp"
+                android:layout_marginEnd="24dp"
+                android:text="※ 다 쓴 편지를 부모님께 전해주세요! 본인이 아닌 다른 사람에게 전달을 부탁해도 괜찮습니다. 학생과 부모님의 관계개선, 치료적 지지를 이끌 수 있는 기회가 될 것입니다."
+                android:textColor="#3F51B5"
+                android:textSize="12sp" />
+
+            <TextView
+                android:id="@+id/textSub2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="24dp"
+                android:layout_marginTop="16dp"
+                android:layout_marginEnd="24dp"
+                android:textStyle="bold"
+                android:text="자해행동을 멈출 수 있는 나와의 약속" />
+
+            <TextView
+                android:id="@+id/textDetails2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="24dp"
+                android:layout_marginEnd="24dp"
+                android:layout_marginTop="16dp"
+                android:layout_marginBottom="8dp"
+                android:text="\t자신에게 해당되는 문장 옆에 체크해주세요." />
+
+            <CheckBox
+                android:id="@+id/checkBox"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="24dp"
+                android:layout_marginEnd="24dp"
+                android:text="자해를 멈추는 것은 나에게 매우 중요하다"
+                android:textSize="10sp" />
+
+            <CheckBox
+                android:id="@+id/checkBox2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="24dp"
+                android:layout_marginEnd="24dp"
+                android:text="내 삶에서 중요한 사람들에게 자해에 대해 이야기했다"
+                android:textSize="10sp" />
+
+            <CheckBox
+                android:id="@+id/checkBox3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="24dp"
+                android:layout_marginEnd="24dp"
+                android:text="자해하고 싶을 때 부를 수 있는 사람이 두 명 이상이 있다."
+                android:textSize="10sp" />
+
+            <CheckBox
+                android:id="@+id/checkBox4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="24dp"
+                android:layout_marginEnd="24dp"
+                android:text="자해하기 전에 드는 느낌에 대해 알고 있다"
+                android:textSize="10sp"/>
+
+            <CheckBox
+                android:id="@+id/checkBox5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="24dp"
+                android:layout_marginEnd="24dp"
+                android:text="자해를 유발하는 상황에 대해 알고있다"
+                android:textSize="10sp"/>
+
+            <CheckBox
+                android:id="@+id/checkBox6"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="24dp"
+                android:layout_marginEnd="24dp"
+                android:text="자해를 유발하는 생각에 대해 알고있다"
+                android:textSize="10sp" />
+
+            <CheckBox
+                android:id="@+id/checkBox7"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="24dp"
+                android:layout_marginEnd="24dp"
+                android:text="자해하는데 사용했던 물건을 제거했다"
+                android:textSize="10sp"/>
+
+            <CheckBox
+                android:id="@+id/checkBox8"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="24dp"
+                android:layout_marginEnd="24dp"
+                android:text="자해 대신 할 수 있는 일들의 목록이 있다"
+                android:textSize="10sp" />
+
+            <CheckBox
+                android:id="@+id/checkBox9"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="24dp"
+                android:layout_marginEnd="24dp"
+                android:text="자해하고자 할때 가서 안전하다고 느낄 수 있는 장소가 있다"
+                android:textSize="10sp" />
+
+            <CheckBox
+                android:id="@+id/checkBox10"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="24dp"
+                android:layout_marginEnd="24dp"
+                android:text="자해를 멈추는데 도움을 줄 수 있다고 신뢰하는 상담사의 치료를 받고 있다"
+                android:textSize="10sp" />
+
+
+        </LinearLayout>
+    </ScrollView>
+</androidx.constraintlayout.widget.ConstraintLayout>

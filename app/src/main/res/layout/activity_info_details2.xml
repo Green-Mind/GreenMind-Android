@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".homeFragment.Infomation.InfoDetailsActivity1">
+    tools:context=".homeFragment.Infomation.InfoDetailsActivity2">
 
     <TextView
         android:id="@+id/textTitle"
@@ -12,21 +12,22 @@
         android:layout_height="wrap_content"
         android:layout_marginStart="24dp"
         android:layout_marginTop="24dp"
-        android:text="호흡하기 (Deep Breathing)"
+        android:text="스트레스 다이어리 작성"
         android:textSize="20sp"
         android:textStyle="bold"
-        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintStart_toStartOf="@+id/scrollView2"
         app:layout_constraintTop_toTopOf="parent" />
 
     <ScrollView
-        android:layout_width="match_parent"
+        android:id="@+id/scrollView2"
+        android:layout_width="0dp"
         android:layout_height="0dp"
         android:layout_marginTop="84dp"
-        android:layout_marginBottom="16dp"
         app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="1.0"
-        tools:layout_editor_absoluteX="24dp">
+        app:layout_constraintVertical_bias="1.0">
 
         <LinearLayout
             android:layout_width="match_parent"
@@ -34,78 +35,73 @@
             android:orientation="vertical">
 
             <ImageView
-                android:id="@+id/imageBreathing"
+                android:id="@+id/imageDiary"
                 android:layout_width="200dp"
                 android:layout_height="200dp"
                 android:layout_gravity="center"
                 android:scaleType="center"
-                app:srcCompat="@drawable/info_breathe" />
+                app:srcCompat="@drawable/info_diary" />
 
             <TextView
                 android:id="@+id/textSub"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginStart="24dp"
-                android:layout_marginEnd="24dp"
                 android:layout_marginTop="16dp"
-                android:text="\t심호흡은 스트레스로 인한 교감신경의 작용을 완화하고 부교감신경의 작용을 활성화하여 자율신경계를 안정시킬 수 있는 방법입니다. 폐에 많은 산소를 공금합으로써 신체 내의 각종 호르몬, 심장박동, 혈압 등의 조화를 통해 지치고 피로한 학생들에게 생기를 북돋을 수 있는 효과가 있다." />
+                android:layout_marginEnd="24dp"
+                android:text="\t스트레스 다이어리 작성하기는 스트레스가 높은 상황에서 자신의 느낌을 구체적으로 분석하듯이 살펴보는 것이다. 이를 통해 스트레스를 유발하는 원인과 이에 대처하는 자신의 모습을 살펴볼 수 있다. 스트레스를 유발하는 원인과 이에 대한 대처습관에 대해 탐색하고자 하는 작업으로, 다음 상담시간 전까지 스트레스를 받았던 상황과 이로 인해 자신이 느낀 감정을 기록한다. " />
 
             <TextView
-            android:id="@+id/textDetails1"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_marginStart="24dp"
-            android:layout_marginEnd="24dp"
-            android:layout_marginTop="24dp"
-            android:text="a. 자세잡기 : 눈을 감고 앉거나 누운 자세에서 몸의 힘을 빼고 천천히 자신이 호흡에 집중한다." />
-
-            <TextView
-                android:id="@+id/textDetails2"
+                android:id="@+id/textSub2"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginStart="24dp"
+                android:layout_marginTop="16dp"
                 android:layout_marginEnd="24dp"
+                android:text="다이어리 작성하기"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textDetails1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="24dp"
                 android:layout_marginTop="8dp"
-                android:text="b. 들숨 : 코로 숨을 들이마시면서 가슴을 최대한 열어준다. 공기가 들어가면서 자연스럽게 화장되도록한다." />
+                android:layout_marginEnd="24dp"
+                android:text="감정적으로 극에 달하여 분모와 파괴적인 행동, 충돌을 참기 힘들었던 위기 상황을 한가지 떠올려 보세요. "
+                android:textSize="12sp" />
+
+            <TextView
+                android:id="@+id/textDetails2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="24dp"
+                android:layout_marginTop="8dp"
+                android:layout_marginEnd="24dp"
+                android:text="· 다음의 표를 작성하여 위기 상황과 자신이 느낀 감정을 알아보세요. "
+                android:textSize="12sp" />
 
             <TextView
                 android:id="@+id/textDetails3"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginStart="24dp"
-                android:layout_marginEnd="24dp"
                 android:layout_marginTop="8dp"
-                android:text="c. 날숨 : 코로 공기가 다 빠져나갈 때까지 여유를 가지고 숨을 내보낸다." />
+                android:layout_marginEnd="24dp"
+                android:text="· 스트레스에 대처하는 나의 행동의 단기적, 장기적 결과를 생각해 보세요."
+                android:textSize="12sp" />
 
-            <TextView
-                android:id="@+id/textDetails4"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_marginStart="24dp"
-                android:layout_marginEnd="24dp"
-                android:layout_marginTop="8dp"
-                android:text="d. 이 과정을 10회 정도 반복한다." />
 
             <TextView
                 android:id="@+id/textDetails5"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginStart="24dp"
-                android:layout_marginEnd="24dp"
                 android:layout_marginTop="8dp"
-                android:text="e. 몸을 천천히 움직이며 감각을 깨우고 기지개를 켜며 눈을 뜬다." />
-
-            <TextView
-                android:id="@+id/textDetails6"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_marginStart="24dp"
-                android:layout_marginTop="16dp"
                 android:layout_marginEnd="24dp"
-                android:text="※ 자해욕구가 올라올 때 떠올려서 시도해볼 수 있도록 함께 반복해서 연습해주세요"
+                android:text="※ 스트레스를 관리하면 자해행동이 감소할 수 있습니다! 스트레스 다이어리를 작성하는 최소한의 수행도 의미가 있습니다. 스트레스를 유발하는 환경이 통제되지 않는 경우, 나의 마음가짐과 생각의 전환으로 기분이 나아지는 경우를 떠올려보세요."
                 android:textColor="#3F51B5"
                 android:textSize="12sp" />
         </LinearLayout>
     </ScrollView>
-
 </androidx.constraintlayout.widget.ConstraintLayout>

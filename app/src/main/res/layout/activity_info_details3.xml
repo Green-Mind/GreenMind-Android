@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".homeFragment.Infomation.InfoDetailsActivity3">
+
+    <TextView
+        android:id="@+id/textTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="24dp"
+        android:text="마음 챙김의 기술"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="@+id/scrollView2"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ScrollView
+        android:id="@+id/scrollView2"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginTop="84dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1.0">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <ImageView
+                android:id="@+id/imageHeart"
+                android:layout_width="200dp"
+                android:layout_height="200dp"
+                android:layout_gravity="center"
+                android:scaleType="center"
+                app:srcCompat="@drawable/info_heart" />
+
+            <TextView
+                android:id="@+id/textSub"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="24dp"
+                android:layout_marginTop="16dp"
+                android:layout_marginEnd="24dp"
+                android:text="\t마음챙김(mindfulness)은 자신에게 집중할 수 있는 능력이며, 동시에 새로운 정보를 받아들이기에 충분히 넓은 시야를 갖추는 것이다. 이것은 감정을 정확히 알아보기 위해 필요하며 삶에서 현재를 즐길 수 있는 능력이라 고 할 수 있다. 현재의 상황에서 필요한 것을 하고 모든 것을 있는 그대로 받아들이는 것이다. 마음챙김은 매 위기에 실습할 수 있는 가장 근복적이고 기본적인 기술이다. "/>
+
+            <TextView
+                android:id="@+id/textSub2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="24dp"
+                android:layout_marginTop="16dp"
+                android:layout_marginEnd="24dp"
+                android:text="실습 : 적어보거나 말로 표현하기"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textDetails1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="24dp"
+                android:layout_marginTop="8dp"
+                android:layout_marginEnd="24dp"
+                android:text="관찰(observe)\n
+· 말없이 바라보기 : 그저 지금 이 순간 느껴지는 경험을  알아본다. \n
+· 오감을 활용하여 자신의 내면과 외면을 다 관찰해 본다. \n
+· 생각과 감정이 나타났다가 사라지는 흐름을 지켜본다. \n
+· 느껴지는 것들이 마음에 들어왔다가 미끄러지듯 나가도록 한다(붙잡아 두지 않는다). \n
+· 생각과 감정을 밀어내지 않습니다. 고통스러운 것일지라도 그대로 둔다. "
+                android:textSize="12sp" />
+
+            <TextView
+                android:id="@+id/textDetails2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="24dp"
+                android:layout_marginTop="8dp"
+                android:layout_marginEnd="24dp"
+                android:text="묘사(describe)\n
+· 경험에 단어를 붙이기 : 관찰한 것을 말로 표현한다. \n
+· 예) “나는 슬프다”, “얼굴이 뜨겁다”, “심장이 뛰는 것을 느낀다”, “다는 이러이러한 생각이 있다” 등등 \n
+· 관찰한 것을 해석하려하지 말고 그대로 묘사한다. 있는 그대로의 사실을 본다. “저 사람은 불만 있는 태도이 다”라는 말 대신 “눈을 굴리며 큰 목소리로 이야기하고 있다”라고 묘사할 수 있다. "
+                android:textSize="12sp" />
+
+            <TextView
+                android:id="@+id/textDetails3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="24dp"
+                android:layout_marginTop="8dp"
+                android:layout_marginEnd="24dp"
+                android:text="참여(participate) \n
+· 자신을 지금 이 순간에 온전히 내던진다(춤, 청소, 시험, 지금 느껴지는 슬픔 등). 어제나 내일 일에 걱정하지
+않는다. \n
+· 지금 하고 있는 것이 무엇이든 온전히 집중하도록 한다. \n
+· 자기의식 없이 현재를 충분하게 느껴본다. \n
+· 비록 부정적인 감정일지라도 충동적으로 행동하는 대신 마음이 무엇을 할지 결정할 수 있도록 충분하게 느껴 본다. "
+                android:textSize="12sp" />
+
+
+            <TextView
+                android:id="@+id/textDetails5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="24dp"
+                android:layout_marginTop="8dp"
+                android:layout_marginEnd="24dp"
+                android:text="※ 진지하고 솔직하게 응답해주세요!"
+                android:textColor="#3F51B5"
+                android:textSize="12sp" />
+        </LinearLayout>
+    </ScrollView>
+</androidx.constraintlayout.widget.ConstraintLayout>
