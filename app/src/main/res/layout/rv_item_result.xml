@@ -11,7 +11,6 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintBottom_toBottomOf="parent"
-        android:background="@drawable/result_item_back"
         android:paddingTop="5dp"
         android:paddingBottom="5dp"
         android:layout_marginTop="7dp"

@@ -31,151 +31,171 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginTop="15dp"
-            android:text="다음 아이콘을 클릭해 자세한 건강 정보를 확인하세요!"
+            android:text="다음 아이콘을 클릭해 자세한 정신 건강 실천기술을 확인하세요!"
             app:layout_constraintStart_toStartOf="@+id/text_title"
             app:layout_constraintTop_toBottomOf="@+id/text_title" />
 
         <ScrollView
             android:layout_width="match_parent"
-            android:layout_height="match_parent">
-
-
-        <androidx.constraintlayout.widget.ConstraintLayout
-            android:id="@+id/cl2"
-            android:layout_width="match_parent"
             android:layout_height="match_parent"
-            android:layout_marginStart="10dp"
-            android:layout_marginTop="100dp"
-            android:layout_marginEnd="10dp"
-            android:layout_marginBottom="10dp"
-            app:layout_constraintBottom_toBottomOf="parent"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintHorizontal_bias="0.0"
-            app:layout_constraintStart_toStartOf="@+id/title_explain"
-            app:layout_constraintTop_toBottomOf="@+id/title_explain"
-            app:layout_constraintVertical_bias="0.298"
-            android:paddingBottom="80dp">
+            tools:layout_editor_absoluteX="25dp"
+            tools:layout_editor_absoluteY="-34dp">
 
 
-
-            <Button
-                android:id="@+id/button1"
-                android:layout_width="100dp"
-                android:layout_height="100dp"
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:id="@+id/cl2"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
                 android:layout_marginStart="10dp"
-                android:layout_marginTop="20dp"
-                android:text="질병1"
-                app:layout_constraintStart_toStartOf="parent"
-                app:layout_constraintTop_toTopOf="parent" />
-
-            <Button
-                android:id="@+id/button2"
-                android:layout_width="100dp"
-                android:layout_height="100dp"
-                android:text="질병2"
-                app:layout_constraintEnd_toEndOf="parent"
-                app:layout_constraintStart_toStartOf="parent"
-                app:layout_constraintTop_toTopOf="@+id/button1" />
-
-            <Button
-                android:id="@+id/button3"
-                android:layout_width="100dp"
-                android:layout_height="100dp"
+                android:layout_marginTop="100dp"
                 android:layout_marginEnd="10dp"
-                android:text="질병3"
+                android:layout_marginBottom="10dp"
+                android:paddingBottom="80dp"
+                app:layout_constraintBottom_toBottomOf="parent"
                 app:layout_constraintEnd_toEndOf="parent"
-                app:layout_constraintTop_toTopOf="@+id/button2" />
+                app:layout_constraintHorizontal_bias="0.0"
+                app:layout_constraintStart_toStartOf="@+id/title_explain"
+                app:layout_constraintTop_toBottomOf="@+id/title_explain"
+                app:layout_constraintVertical_bias="0.298">
 
-            <Button
-                android:id="@+id/button4"
-                android:layout_width="100dp"
-                android:layout_height="100dp"
-                android:layout_marginStart="10dp"
-                android:layout_marginTop="30dp"
-                android:text="질병4"
-                app:layout_constraintStart_toStartOf="parent"
-                app:layout_constraintTop_toBottomOf="@+id/button1" />
+                <ImageButton
+                    android:id="@+id/button1"
+                    android:layout_width="120dp"
+                    android:layout_height="120dp"
+                    android:layout_marginStart="40dp"
+                    android:layout_marginTop="32dp"
+                    android:scaleType="centerInside"
+                    android:src="@drawable/info_breathe"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent" />
 
-            <Button
-                android:id="@+id/button5"
-                android:layout_width="100dp"
-                android:layout_height="100dp"
-                android:layout_marginTop="30dp"
-                android:text="질병5"
-                app:layout_constraintEnd_toEndOf="parent"
-                app:layout_constraintStart_toStartOf="parent"
-                app:layout_constraintTop_toBottomOf="@+id/button2" />
+                <TextView
+                    android:id="@+id/text1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="8dp"
+                    android:text="호흡하기"
+                    app:layout_constraintEnd_toEndOf="@+id/button1"
+                    app:layout_constraintStart_toStartOf="@+id/button1"
+                    app:layout_constraintTop_toBottomOf="@+id/button1" />
 
-            <Button
-                android:id="@+id/button6"
-                android:layout_width="100dp"
-                android:layout_height="100dp"
-                android:layout_marginTop="30dp"
-                android:layout_marginEnd="10dp"
-                android:text="질병6"
-                app:layout_constraintEnd_toEndOf="parent"
-                app:layout_constraintTop_toBottomOf="@+id/button3" />
+                <ImageButton
+                    android:id="@+id/button2"
+                    android:layout_width="120dp"
+                    android:layout_height="120dp"
+                    android:layout_marginTop="32dp"
+                    android:layout_marginEnd="40dp"
+                    android:scaleType="centerInside"
+                    android:src="@drawable/info_diary"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintTop_toTopOf="parent" />
 
-            <Button
-                android:id="@+id/button7"
-                android:layout_width="100dp"
-                android:layout_height="100dp"
-                android:layout_marginStart="10dp"
-                android:layout_marginTop="30dp"
-                android:text="질병7"
-                app:layout_constraintStart_toStartOf="parent"
-                app:layout_constraintTop_toBottomOf="@+id/button4" />
+                <TextView
+                    android:id="@+id/text2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="8dp"
+                    android:text="스트레스 다이어리 작성하기"
+                    app:layout_constraintEnd_toEndOf="@+id/button2"
+                    app:layout_constraintStart_toStartOf="@+id/button2"
+                    app:layout_constraintTop_toBottomOf="@+id/button2" />
 
-            <Button
-                android:id="@+id/button8"
-                android:layout_width="100dp"
-                android:layout_height="100dp"
-                android:layout_marginTop="30dp"
-                android:text="질병8"
-                app:layout_constraintEnd_toEndOf="parent"
-                app:layout_constraintStart_toStartOf="parent"
-                app:layout_constraintTop_toBottomOf="@+id/button5" />
+                <ImageButton
+                    android:id="@+id/button3"
+                    android:layout_width="120dp"
+                    android:layout_height="120dp"
+                    android:layout_marginTop="48dp"
+                    android:scaleType="centerInside"
+                    android:src="@drawable/info_heart"
+                    app:layout_constraintEnd_toEndOf="@+id/button1"
+                    app:layout_constraintStart_toStartOf="@+id/button1"
+                    app:layout_constraintTop_toBottomOf="@+id/button1" />
 
-            <Button
-                android:id="@+id/button9"
-                android:layout_width="100dp"
-                android:layout_height="100dp"
-                android:layout_marginTop="30dp"
-                android:layout_marginEnd="10dp"
-                android:text="질병9"
-                app:layout_constraintEnd_toEndOf="parent"
-                app:layout_constraintTop_toBottomOf="@+id/button6" />
+                <TextView
+                    android:id="@+id/text3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="8dp"
+                    android:text="마음챙김의 기술"
+                    app:layout_constraintEnd_toEndOf="@+id/button3"
+                    app:layout_constraintStart_toStartOf="@+id/button3"
+                    app:layout_constraintTop_toBottomOf="@+id/button3" />
 
-            <Button
-                android:id="@+id/button10"
-                android:layout_width="100dp"
-                android:layout_height="100dp"
-                android:layout_marginStart="10dp"
-                android:layout_marginTop="30dp"
-                android:text="질병10"
-                app:layout_constraintStart_toStartOf="parent"
-                app:layout_constraintTop_toBottomOf="@+id/button7" />
+                <ImageButton
+                    android:id="@+id/button4"
+                    android:layout_width="120dp"
+                    android:layout_height="120dp"
+                    android:layout_marginTop="48dp"
+                    android:scaleType="centerInside"
+                    android:src="@drawable/info_letter"
+                    app:layout_constraintEnd_toEndOf="@+id/button2"
+                    app:layout_constraintStart_toStartOf="@+id/button2"
+                    app:layout_constraintTop_toBottomOf="@+id/button2" />
 
-            <Button
-                android:id="@+id/button11"
-                android:layout_width="100dp"
-                android:layout_height="100dp"
-                android:layout_marginTop="30dp"
-                android:text="질병11"
-                app:layout_constraintEnd_toEndOf="parent"
-                app:layout_constraintStart_toStartOf="parent"
-                app:layout_constraintTop_toBottomOf="@+id/button8" />
+                <TextView
+                    android:id="@+id/text4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="8dp"
+                    android:text="편지쓰기"
+                    app:layout_constraintEnd_toEndOf="@+id/button4"
+                    app:layout_constraintStart_toStartOf="@+id/button4"
+                    app:layout_constraintTop_toBottomOf="@+id/button4" />
 
-            <Button
-                android:id="@+id/button12"
-                android:layout_width="100dp"
-                android:layout_height="100dp"
-                android:layout_marginTop="30dp"
-                android:layout_marginEnd="10dp"
-                android:text="질병12"
-                app:layout_constraintEnd_toEndOf="parent"
-                app:layout_constraintTop_toBottomOf="@+id/button9" />
-        </androidx.constraintlayout.widget.ConstraintLayout>
+                <ImageButton
+                    android:id="@+id/button5"
+                    android:layout_width="120dp"
+                    android:layout_height="120dp"
+                    android:layout_marginTop="48dp"
+                    android:scaleType="centerInside"
+                    android:src="@drawable/info_exercise"
+                    app:layout_constraintEnd_toEndOf="@+id/button1"
+                    app:layout_constraintStart_toStartOf="@+id/button1"
+                    app:layout_constraintTop_toBottomOf="@+id/button3" />
+
+                <TextView
+                    android:id="@+id/text5"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="8dp"
+                    android:text="점진적 근육 이완"
+                    app:layout_constraintEnd_toEndOf="@+id/button5"
+                    app:layout_constraintStart_toStartOf="@+id/button5"
+                    app:layout_constraintTop_toBottomOf="@+id/button5" />
+
+                <ImageButton
+                    android:id="@+id/button6"
+                    android:layout_width="120dp"
+                    android:layout_height="120dp"
+                    android:layout_marginTop="48dp"
+                    android:scaleType="centerInside"
+                    android:src="@drawable/info_soundwalk"
+                    app:layout_constraintEnd_toEndOf="@+id/button2"
+                    app:layout_constraintStart_toStartOf="@+id/button2"
+                    app:layout_constraintTop_toBottomOf="@+id/button4" />
+
+                <TextView
+                    android:id="@+id/text6"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="8dp"
+                    android:text="소리산책"
+                    app:layout_constraintEnd_toEndOf="@+id/button6"
+                    app:layout_constraintStart_toStartOf="@+id/button6"
+                    app:layout_constraintTop_toBottomOf="@+id/button6" />
+
+                <TextView
+                    android:id="@+id/textFooter1"
+                    android:layout_width="117dp"
+                    android:layout_height="18dp"
+                    android:text="※ 출처 : 어쩌구 저쩌구"
+                    android:textColor="#3F51B5"
+                    android:textSize="12sp"
+                    app:layout_constraintEnd_toEndOf="@+id/button5"
+                    app:layout_constraintStart_toStartOf="@+id/button5"
+                    tools:layout_editor_absoluteY="561dp" />
+
+            </androidx.constraintlayout.widget.ConstraintLayout>
         </ScrollView>
     </androidx.constraintlayout.widget.ConstraintLayout>
 </FrameLayout>

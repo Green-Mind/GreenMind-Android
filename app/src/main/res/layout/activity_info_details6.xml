@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".homeFragment.Infomation.InfoDetailsActivity6">
+
+    <TextView
+        android:id="@+id/textTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="24dp"
+        android:text="감각회복 : 소리산책(Sound Walk)"
+       android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_marginTop="84dp"
+        android:layout_marginBottom="16dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1.0"
+        tools:layout_editor_absoluteX="24dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <ImageView
+                android:id="@+id/imageSound"
+                android:layout_width="200dp"
+                android:layout_height="200dp"
+                android:scaleType="center"
+                android:layout_gravity="center"
+                app:srcCompat="@drawable/info_soundwalk" />
+
+            <TextView
+                android:id="@+id/textDetails1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="24dp"
+                android:layout_marginEnd="24dp"
+                android:layout_marginTop="8dp"
+                android:text="\t자신의 감각을 제대로 알아차리는 것은 건강하게 살아가는 데에 있어서 아주 중요한 요소이다. 5감을 올바르게 인식할수록 스스로 건강한 삶을 추구하려는 지혜가 발휘되기 때문이다. 이 부분에서는 청각을 활용하여 자신의 5 므로 보이프 르ᄅ 있는 대동을 수록하였다. 캐나다의 음악가 머레이 쉐이퍼 (Murray Schafer)는 시리겨과 을 각각의 개별요소가 아닌 하나의 맥락으로 파악하고자 하였다. 소음공해에 특히 관심을 가졌던 그는 올바른 사운드디자인을 통해 소리의 정체성을 회복하고 감각의 균형을 이루고자 하였다. 여기서는 감각을 회복하는데에 있 어서 사운드스케이프(soundscape)를 치료와 치유의 목적으로 적극적으로 활용하고자 한다. 다음의 내용은 그 가 실제로 활용했던 교육기법을 발췌하여 소개한 것이다." />
+
+            <TextView
+                android:id="@+id/textSub1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="24dp"
+                android:layout_marginTop="16dp"
+                android:layout_marginEnd="24dp"
+                android:text="소리산책 (Sound Walk)"
+                android:textColor="#4CAF50"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textDetails2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="24dp"
+                android:layout_marginEnd="24dp"
+                android:layout_marginTop="8dp"
+                android:textSize="12sp"
+                android:text="\t소리산책(Sound Walk) 이 방법은 학생들과 함께 교실 내 또는 학교 주변을 산책하며 감각을 돌보는 방법이다. 소리산책(Sound Walk) 은 환경 속에서 적극적으로 자신이 좋아하는 소리를 찾아 편안함을 느껴보는 것이다. 자신이 현재 있는 공간에서 귀를 기울여 유쾌하지 않은 소리는 감소시키고 유쾌한 소리를 더 많이 찾을 수 있도록 움직여 간다. 좋은 소리를 찾아다니는 모습을 산책에 비유할 수 있다. 외부의 소리뿐만 아니라 자신이 내는 소리는 어떤 것이 있는지도 살펴 보며 자신에게 관심을 기울인다. 그리고 인지할 수 있는 모든 소리를 구분해가며 결국 오감을 다 활용하여 소리를 받아들이는 과정으로 이어질 수 있다. 이 연습을 통해 학생들이 살아가는 환경에서 스스로 감각을 돌볼 수 있을 것이다." />
+
+            <TextView
+                android:id="@+id/textSub2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="24dp"
+                android:layout_marginTop="16dp"
+                android:layout_marginEnd="24dp"
+                android:textStyle="bold"
+                android:textColor="#4CAF50"
+                android:text="실습" />
+
+            <TextView
+                android:id="@+id/textnum1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="24dp"
+                android:layout_marginTop="4dp"
+                android:layout_marginEnd="24dp"
+                android:text="1. 특정한 장소를 선정한다. 실내나 실외 상관없다." />
+
+            <TextView
+                android:id="@+id/textnum2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="24dp"
+                android:layout_marginTop="4dp"
+                android:layout_marginEnd="24dp"
+                android:text="2. 소리에 귀를 기울이며 걸어본다. 그리고 마음에 드는 장소에 멈춰 본다." />
+
+            <TextView
+                android:id="@+id/textnum3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="24dp"
+                android:layout_marginTop="4dp"
+                android:layout_marginEnd="24dp"
+                android:text="3. 그 곳에서 들리는 모든 소리를 종이에 적어본다." />
+
+            <TextView
+                android:id="@+id/textnum4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="24dp"
+                android:layout_marginTop="4dp"
+                android:layout_marginEnd="24dp"
+                android:text="4. 소리를 다 적었으면 자연에서 나는 소리는 N(Nature), 사람이 내는 소리는 H(Human), 기계가 내는 소리는 M(Machine)으로 표시한다." />
+
+            <TextView
+                android:id="@+id/textnum5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="24dp"
+                android:layout_marginTop="4dp"
+                android:layout_marginEnd="24dp"
+                android:text="5. 어떤 소리가 가장 많은지 살펴보고, 다음에는 자신이 낸 소리에  I(I)라고 표시한다." />
+
+            <TextView
+                android:id="@+id/textnum6"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="24dp"
+                android:layout_marginTop="4dp"
+                android:layout_marginEnd="24dp"
+                android:text="6. 호감이 가는 소리에는 L(Like)표시를 한다." />
+
+            <TextView
+                android:id="@+id/textnum7"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="24dp"
+                android:layout_marginTop="4dp"
+                android:layout_marginEnd="24dp"
+                android:text="7. 그 소리들이 나에게 어떤 영향을 주고 있는지 알아본다." />
+
+
+        </LinearLayout>
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
