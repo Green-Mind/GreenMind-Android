@@ -55,7 +55,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_marginStart="24dp"
-                    android:layout_marginTop="4dp"
+                    android:layout_marginTop="8dp"
                     android:layout_marginEnd="24dp"
                     android:text="어떤 이유로 자해를 하였는지 가장 잘 나타내는 것에 체크해 주십시오.\n자해를 했던 이유가 전혀 아니라면 0에, 항상 자해를 하는 이유라면 4에 체크해 주십시오. "
                     android:textColor="#3F51B5"
