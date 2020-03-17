@@ -1,0 +1,1332 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".homeFragment.test_views.TestActivity3_2">
+
+
+        <TextView
+            android:id="@+id/textTitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="24dp"
+            android:layout_marginTop="24dp"
+            android:text="Part3. 자해의도(2)"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/textQ19"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="\t19_2. 다음의 질문은 자해를 지속하는 이유에 대해 묻는 질문입니다. 아래의 진술문 중 자신의 상태를 가장 잘 설명하는 것에 동그라미를 해 주십시오."
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            android:layout_marginTop="8dp"
+            android:paddingStart="24dp"
+            android:paddingEnd="24dp"
+            app:layout_constraintTop_toBottomOf="@+id/textTitle"
+            android:textStyle="bold" />
+
+        <ScrollView
+            android:id="@+id/scrollView2"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_marginTop="120dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.0">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+
+                <TextView
+                    android:id="@+id/textSub1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="24dp"
+                    android:layout_marginTop="4dp"
+                    android:layout_marginEnd="24dp"
+                    android:text="어떤 이유로 자해를 하였는지 가장 잘 나타내는 것에 체크해 주십시오.\n자해를 했던 이유가 전혀 아니라면 0에, 항상 자해를 하는 이유라면 4에 체크해 주십시오. "
+                    android:textColor="#3F51B5"
+                    android:textSize="12sp" />
+
+                <TextView
+                    android:id="@+id/textSub2"
+                    android:layout_width="362dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="24dp"
+                    android:layout_marginTop="4dp"
+                    android:layout_marginEnd="24dp"
+                    android:text="(0 : 전혀 아니다\t 1 : 거의 아니다\t 2 : 보통이다\t 3 : 거의 그렇다\t 4 : 항상 그렇다)"
+                    android:textColor="#3F51B5"
+                    android:textSize="10sp" />
+
+                <TextView
+                    android:id="@+id/textReason1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="24dp"
+                    android:layout_marginTop="16dp"
+                    android:layout_marginEnd="24dp"
+                    android:text="자해를 '지속하고 있는 이유'는 무엇입니까?"
+                    android:textColor="#4CAF50"
+                    android:textSize="16sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/textQuestion1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="24dp"
+                    android:layout_marginTop="16dp"
+                    android:layout_marginEnd="24dp"
+                    android:text="1. 극심한 긴장감에서 벗어나기 위해"
+                    android:textSize="14sp" />
+
+                <RadioGroup
+                    android:id="@+id/r_btn1_1"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginStart="24dp"
+                    android:layout_marginEnd="24dp"
+                    android:orientation="horizontal">
+
+                    <RadioButton
+                        android:id="@+id/r_btn1_1-0"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="0" />
+
+                    <RadioButton
+                        android:id="@+id/r_btn1_1-1"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="1" />
+
+                    <RadioButton
+                        android:id="@+id/r_btn1_1-2"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="2" />
+
+                    <RadioButton
+                        android:id="@+id/r_btn1_1-3"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="3" />
+
+                    <RadioButton
+                        android:id="@+id/r_btn1_1-4"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="4" />
+                </RadioGroup>
+
+                <TextView
+                    android:id="@+id/textQuestion2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="24dp"
+                    android:layout_marginTop="16dp"
+                    android:layout_marginEnd="24dp"
+                    android:text="2. 술이나 본드, 수면제와 같은 약에 취한 것 같은 느낌을 경험하기 위해"
+                    android:textSize="14sp" />
+
+                <RadioGroup
+                    android:id="@+id/r_btn1_2"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginStart="24dp"
+                    android:layout_marginEnd="24dp"
+                    android:orientation="horizontal">
+
+                    <RadioButton
+                        android:id="@+id/r_btn1_2-0"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="0" />
+
+                    <RadioButton
+                        android:id="@+id/r_btn1_2-1"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="1" />
+
+                    <RadioButton
+                        android:id="@+id/r_btn1_2-2"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="2" />
+
+                    <RadioButton
+                        android:id="@+id/r_btn1_2-3"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="3" />
+
+                    <RadioButton
+                        android:id="@+id/r_btn1_2-4"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="4" />
+                </RadioGroup>
+
+                <TextView
+                    android:id="@+id/textQuestion3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="24dp"
+                    android:layout_marginTop="16dp"
+                    android:layout_marginEnd="24dp"
+                    android:text="3. 부모님이 나에게 화를내지 않도록 하기 위해"
+                    android:textSize="14sp" />
+
+                <RadioGroup
+                    android:id="@+id/r_btn1_3"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginStart="24dp"
+                    android:layout_marginEnd="24dp"
+                    android:orientation="horizontal">
+
+                    <RadioButton
+                        android:id="@+id/r_btn1_3-0"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="0" />
+
+                    <RadioButton
+                        android:id="@+id/r_btn1_3-1"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="1" />
+
+                    <RadioButton
+                        android:id="@+id/r_btn1_3-2"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="2" />
+
+                    <RadioButton
+                        android:id="@+id/r_btn1_3-3"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="3" />
+
+                    <RadioButton
+                        android:id="@+id/r_btn1_3-4"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="4" />
+                </RadioGroup>
+
+                <TextView
+                    android:id="@+id/textQuestion4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="24dp"
+                    android:layout_marginTop="16dp"
+                    android:layout_marginEnd="24dp"
+                    android:text="4. 혼자라는 느낌이나 공허함을 느끼는 것을 멈추기 위해"
+                    android:textSize="14sp" />
+
+                <RadioGroup
+                    android:id="@+id/r_btn1_4"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginStart="24dp"
+                    android:layout_marginEnd="24dp"
+                    android:orientation="horizontal">
+
+                    <RadioButton
+                        android:id="@+id/r_btn1_4-0"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="0" />
+
+                    <RadioButton
+                        android:id="@+id/r_btn1_4-1"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="1" />
+
+                    <RadioButton
+                        android:id="@+id/r_btn1_4-2"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="2" />
+
+                    <RadioButton
+                        android:id="@+id/r_btn1_4-3"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="3" />
+
+                    <RadioButton
+                        android:id="@+id/r_btn1_4-4"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="4" />
+                </RadioGroup>
+
+                <TextView
+                    android:id="@+id/textQuestion5"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="24dp"
+                    android:layout_marginTop="16dp"
+                    android:layout_marginEnd="24dp"
+                    android:text="5. 다른 사람들의 관심이나 돌봄을 받기 위해"
+                    android:textSize="14sp" />
+
+                <RadioGroup
+                    android:id="@+id/r_btn1_5"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginStart="24dp"
+                    android:layout_marginEnd="24dp"
+                    android:orientation="horizontal">
+
+                    <RadioButton
+                        android:id="@+id/r_btn1_5-0"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="0" />
+
+                    <RadioButton
+                        android:id="@+id/r_btn1_5-1"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="1" />
+
+                    <RadioButton
+                        android:id="@+id/r_btn1_5-2"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="2" />
+
+                    <RadioButton
+                        android:id="@+id/r_btn1_5-3"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="3" />
+
+                    <RadioButton
+                        android:id="@+id/r_btn1_5-4"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="4" />
+                </RadioGroup>
+
+                <TextView
+                    android:id="@+id/textQuestion6"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="24dp"
+                    android:layout_marginTop="16dp"
+                    android:layout_marginEnd="24dp"
+                    android:text="6. 나를 처벌하기 위해"
+                    android:textSize="14sp" />
+
+                <RadioGroup
+                    android:id="@+id/r_btn1_6"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginStart="24dp"
+                    android:layout_marginEnd="24dp"
+                    android:orientation="horizontal">
+
+                    <RadioButton
+                        android:id="@+id/r_btn1_6-0"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="0" />
+
+                    <RadioButton
+                        android:id="@+id/r_btn1_6-1"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="1" />
+
+                    <RadioButton
+                        android:id="@+id/r_btn1_6-2"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="2" />
+
+                    <RadioButton
+                        android:id="@+id/r_btn1_6-3"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="3" />
+
+                    <RadioButton
+                        android:id="@+id/r_btn1_6-4"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="4" />
+                </RadioGroup>
+
+                <TextView
+                    android:id="@+id/textQuestion7"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="24dp"
+                    android:layout_marginTop="16dp"
+                    android:layout_marginEnd="24dp"
+                    android:text="7. 아주 신나는 감정과 같은 흥분감을 느끼기 위해"
+                    android:textSize="14sp" />
+
+                <RadioGroup
+                    android:id="@+id/r_btn1_7"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginStart="24dp"
+                    android:layout_marginEnd="24dp"
+                    android:orientation="horizontal">
+
+                    <RadioButton
+                        android:id="@+id/r_btn1_7-0"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="0" />
+
+                    <RadioButton
+                        android:id="@+id/r_btn1_7-1"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="1" />
+
+                    <RadioButton
+                        android:id="@+id/r_btn1_7-2"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="2" />
+
+                    <RadioButton
+                        android:id="@+id/r_btn1_7-3"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="3" />
+
+                    <RadioButton
+                        android:id="@+id/r_btn1_7-4"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="4" />
+                </RadioGroup>
+
+                <TextView
+                    android:id="@+id/textQuestion8"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="24dp"
+                    android:layout_marginTop="16dp"
+                    android:layout_marginEnd="24dp"
+                    android:text="8. 문제로부터 벗어나기 위해"
+                    android:textSize="14sp" />
+
+                <RadioGroup
+                    android:id="@+id/r_btn1_8"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginStart="24dp"
+                    android:layout_marginEnd="24dp"
+                    android:orientation="horizontal">
+
+                    <RadioButton
+                        android:id="@+id/r_btn1_8-0"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="0" />
+
+                    <RadioButton
+                        android:id="@+id/r_btn1_8-1"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="1" />
+
+                    <RadioButton
+                        android:id="@+id/r_btn1_8-2"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="2" />
+
+                    <RadioButton
+                        android:id="@+id/r_btn1_8-3"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="3" />
+
+                    <RadioButton
+                        android:id="@+id/r_btn1_8-4"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="4" />
+                </RadioGroup>
+
+                <TextView
+                    android:id="@+id/textQuestion9"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="24dp"
+                    android:layout_marginTop="16dp"
+                    android:layout_marginEnd="24dp"
+                    android:text="9. 불쾌한 기억에 대한 주의를 돌리기 위해"
+                    android:textSize="14sp" />
+
+                <RadioGroup
+                    android:id="@+id/r_btn1_9"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginStart="24dp"
+                    android:layout_marginEnd="24dp"
+                    android:orientation="horizontal">
+
+                    <RadioButton
+                        android:id="@+id/r_btn1_9-0"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="0" />
+
+                    <RadioButton
+                        android:id="@+id/r_btn1_9-1"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="1" />
+
+                    <RadioButton
+                        android:id="@+id/r_btn1_9-2"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="2" />
+
+                    <RadioButton
+                        android:id="@+id/r_btn1_9-3"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="3" />
+
+                    <RadioButton
+                        android:id="@+id/r_btn1_9-4"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="4" />
+                </RadioGroup>
+
+                <TextView
+                    android:id="@+id/textQuestion10"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="24dp"
+                    android:layout_marginTop="16dp"
+                    android:layout_marginEnd="24dp"
+                    android:text="10. 내 몸에 대한 이미지나 외형을 변화시키기 위해"
+                    android:textSize="14sp" />
+
+                <RadioGroup
+                    android:id="@+id/r_btn1_10"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginStart="24dp"
+                    android:layout_marginEnd="24dp"
+                    android:orientation="horizontal">
+
+                    <RadioButton
+                        android:id="@+id/r_btn1_10-0"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="0" />
+
+                    <RadioButton
+                        android:id="@+id/r_btn1_10-1"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="1" />
+
+                    <RadioButton
+                        android:id="@+id/r_btn1_10-2"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="2" />
+
+                    <RadioButton
+                        android:id="@+id/r_btn1_10-3"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="3" />
+
+                    <RadioButton
+                        android:id="@+id/r_btn1_10-4"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="4" />
+                </RadioGroup>
+
+                <TextView
+                    android:id="@+id/textQuestion11"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="24dp"
+                    android:layout_marginTop="16dp"
+                    android:layout_marginEnd="24dp"
+                    android:text="11. 어떤 집단에 속하기 위해"
+                    android:textSize="14sp" />
+
+                <RadioGroup
+                    android:id="@+id/r_btn1_11"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginStart="24dp"
+                    android:layout_marginEnd="24dp"
+                    android:orientation="horizontal">
+
+                    <RadioButton
+                        android:id="@+id/r_btn1_11-0"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="0" />
+
+                    <RadioButton
+                        android:id="@+id/r_btn1_11-1"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="1" />
+
+                    <RadioButton
+                        android:id="@+id/r_btn1-11-2"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="2" />
+
+                    <RadioButton
+                        android:id="@+id/r_btn1_11-3"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="3" />
+
+                    <RadioButton
+                        android:id="@+id/r_btn1_11-4"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="4" />
+                </RadioGroup>
+
+                <TextView
+                    android:id="@+id/textQuestion12"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="24dp"
+                    android:layout_marginTop="16dp"
+                    android:layout_marginEnd="24dp"
+                    android:text="12. 분노를 풀기 위해"
+                    android:textSize="14sp" />
+
+                <RadioGroup
+                    android:id="@+id/r_btn1_12"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginStart="24dp"
+                    android:layout_marginEnd="24dp"
+                    android:orientation="horizontal">
+
+                    <RadioButton
+                        android:id="@+id/r_btn1_12-0"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="0" />
+
+                    <RadioButton
+                        android:id="@+id/r_btn1_12-1"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="1" />
+
+                    <RadioButton
+                        android:id="@+id/r_btn1_12-2"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="2" />
+
+                    <RadioButton
+                        android:id="@+id/r_btn1_12-3"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="3" />
+
+                    <RadioButton
+                        android:id="@+id/r_btn1_12-4"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="4" />
+                </RadioGroup>
+
+                <TextView
+                    android:id="@+id/textQuestion13"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="24dp"
+                    android:layout_marginTop="16dp"
+                    android:layout_marginEnd="24dp"
+                    android:text="13. 다른 사람들에게 나의 상처를 보여주기 위해"
+                    android:textSize="14sp" />
+
+                <RadioGroup
+                    android:id="@+id/r_btn1_13"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginStart="24dp"
+                    android:layout_marginEnd="24dp"
+                    android:orientation="horizontal">
+
+                    <RadioButton
+                        android:id="@+id/r_btn1_13-0"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="0" />
+
+                    <RadioButton
+                        android:id="@+id/r_btn1_13-1"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="1" />
+
+                    <RadioButton
+                        android:id="@+id/r_btn1_13-2"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="2" />
+
+                    <RadioButton
+                        android:id="@+id/r_btn1_13-3"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="3" />
+
+                    <RadioButton
+                        android:id="@+id/r_btn1_13-4"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="4" />
+                </RadioGroup>
+
+                <TextView
+                    android:id="@+id/textQuestion14"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="24dp"
+                    android:layout_marginTop="16dp"
+                    android:layout_marginEnd="24dp"
+                    android:text="14. 참을 수 없는 통증을 느낄 떄 다른 신체 부분의 통증으로 대처하기 위해"
+                    android:textSize="14sp" />
+
+                <RadioGroup
+                    android:id="@+id/r_btn1_14"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginStart="24dp"
+                    android:layout_marginEnd="24dp"
+                    android:orientation="horizontal">
+
+                    <RadioButton
+                        android:id="@+id/r_btn1_14-0"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="0" />
+
+                    <RadioButton
+                        android:id="@+id/r_btn1_14-1"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="1" />
+
+                    <RadioButton
+                        android:id="@+id/r_btn1_14-2"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="2" />
+
+                    <RadioButton
+                        android:id="@+id/r_btn1_14-3"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="3" />
+
+                    <RadioButton
+                        android:id="@+id/r_btn1_14-4"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="4" />
+                </RadioGroup>
+
+                <TextView
+                    android:id="@+id/textQuestion15"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="24dp"
+                    android:layout_marginTop="16dp"
+                    android:layout_marginEnd="24dp"
+                    android:text="15. 사람들이 갖는 나에 대한 기대를 멈추기 위해"
+                    android:textSize="14sp" />
+
+                <RadioGroup
+                    android:id="@+id/r_btn1_15"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginStart="24dp"
+                    android:layout_marginEnd="24dp"
+                    android:orientation="horizontal">
+
+                    <RadioButton
+                        android:id="@+id/r_btn1_15-0"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="0" />
+
+                    <RadioButton
+                        android:id="@+id/r_btn1_15-1"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="1" />
+
+                    <RadioButton
+                        android:id="@+id/r_btn1_15-2"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="2" />
+
+                    <RadioButton
+                        android:id="@+id/r_btn1_15-3"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="3" />
+
+                    <RadioButton
+                        android:id="@+id/r_btn1_15-4"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="4" />
+                </RadioGroup>
+
+                <TextView
+                    android:id="@+id/textQuestion16"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="24dp"
+                    android:layout_marginTop="16dp"
+                    android:layout_marginEnd="24dp"
+                    android:text="16. 우울한 느낌이나 가라앚는 느낌을 없애기 위해"
+                    android:textSize="14sp" />
+
+                <RadioGroup
+                    android:id="@+id/r_btn1_16"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginStart="24dp"
+                    android:layout_marginEnd="24dp"
+                    android:orientation="horizontal">
+
+                    <RadioButton
+                        android:id="@+id/r_btn1_16-0"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="0" />
+
+                    <RadioButton
+                        android:id="@+id/r_btn1_16-1"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="1" />
+
+                    <RadioButton
+                        android:id="@+id/r_btn1_16-2"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="2" />
+
+                    <RadioButton
+                        android:id="@+id/r_btn1_16-3"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="3" />
+
+                    <RadioButton
+                        android:id="@+id/r_btn1_16-4"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="4" />
+                </RadioGroup>
+
+                <TextView
+                    android:id="@+id/textQuestion17"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="24dp"
+                    android:layout_marginTop="16dp"
+                    android:layout_marginEnd="24dp"
+                    android:text="17. 자살하겠다는 생각을 멈추기 위해"
+                    android:textSize="14sp" />
+
+                <RadioGroup
+                    android:id="@+id/r_btn1_17"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginStart="24dp"
+                    android:layout_marginEnd="24dp"
+                    android:orientation="horizontal">
+
+                    <RadioButton
+                        android:id="@+id/r_btn1_17-0"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="0" />
+
+                    <RadioButton
+                        android:id="@+id/r_btn1_17-1"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="1" />
+
+                    <RadioButton
+                        android:id="@+id/r_btn1_17-2"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="2" />
+
+                    <RadioButton
+                        android:id="@+id/r_btn1_17-3"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="3" />
+
+                    <RadioButton
+                        android:id="@+id/r_btn1_17-4"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="4" />
+                </RadioGroup>
+
+                <TextView
+                    android:id="@+id/textQuestion18"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="24dp"
+                    android:layout_marginTop="16dp"
+                    android:layout_marginEnd="24dp"
+                    android:text="18. 자살하겠따는 생각이 행동이 되어가는 것을 막기 위해"
+                    android:textSize="14sp" />
+
+                <RadioGroup
+                    android:id="@+id/r_btn1_18"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginStart="24dp"
+                    android:layout_marginEnd="24dp"
+                    android:orientation="horizontal">
+
+                    <RadioButton
+                        android:id="@+id/r_btn1_18-0"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="0" />
+
+                    <RadioButton
+                        android:id="@+id/r_btn1_18-1"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="1" />
+
+                    <RadioButton
+                        android:id="@+id/r_btn1_18-2"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="2" />
+
+                    <RadioButton
+                        android:id="@+id/r_btn1_18-3"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="3" />
+
+                    <RadioButton
+                        android:id="@+id/r_btn1_18-4"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="4" />
+                </RadioGroup>
+
+                <TextView
+                    android:id="@+id/textQuestion19"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="24dp"
+                    android:layout_marginTop="16dp"
+                    android:layout_marginEnd="24dp"
+                    android:text="19. 내가 존재하지 않는다는 생각이 들 때 실제로 존재함을 느끼기 위해"
+                    android:textSize="14sp" />
+
+                <RadioGroup
+                    android:id="@+id/r_btn1_19"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginStart="24dp"
+                    android:layout_marginEnd="24dp"
+                    android:orientation="horizontal">
+
+                    <RadioButton
+                        android:id="@+id/r_btn1_19-0"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="0" />
+
+                    <RadioButton
+                        android:id="@+id/r_btn1_19-1"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="1" />
+
+                    <RadioButton
+                        android:id="@+id/r_btn1_19-2"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="2" />
+
+                    <RadioButton
+                        android:id="@+id/r_btn1_19-3"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="3" />
+
+                    <RadioButton
+                        android:id="@+id/r_btn1_19-4"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="4" />
+                </RadioGroup>
+
+                <TextView
+                    android:id="@+id/textQuestion20"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="24dp"
+                    android:layout_marginTop="16dp"
+                    android:layout_marginEnd="24dp"
+                    android:text="20. 좌절감을 감소시키기 위해"
+                    android:textSize="14sp" />
+
+                <RadioGroup
+                    android:id="@+id/r_btn1_20"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginStart="24dp"
+                    android:layout_marginEnd="24dp"
+                    android:orientation="horizontal">
+
+                    <RadioButton
+                        android:id="@+id/r_btn1_20-0"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="0" />
+
+                    <RadioButton
+                        android:id="@+id/r_btn1_20-1"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="1" />
+
+                    <RadioButton
+                        android:id="@+id/r_btn1_20-2"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="2" />
+
+                    <RadioButton
+                        android:id="@+id/r_btn1_20-3"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="3" />
+
+                    <RadioButton
+                        android:id="@+id/r_btn1_20-4"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="4" />
+                </RadioGroup>
+
+                <TextView
+                    android:id="@+id/textQuestion21"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="24dp"
+                    android:layout_marginTop="16dp"
+                    android:layout_marginEnd="24dp"
+                    android:text="21. 원하는대로 되지 않을 때, 무언가 되고 있다는 느낌을 갖기 위해"
+                    android:textSize="14sp" />
+
+                <RadioGroup
+                    android:id="@+id/r_btn1_21"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginStart="24dp"
+                    android:layout_marginEnd="24dp"
+                    android:orientation="horizontal">
+
+                    <RadioButton
+                        android:id="@+id/r_btn1_21-0"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="0" />
+
+                    <RadioButton
+                        android:id="@+id/r_btn1_21-1"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="1" />
+
+                    <RadioButton
+                        android:id="@+id/r_btn1_21-2"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="2" />
+
+                    <RadioButton
+                        android:id="@+id/r_btn1_21-3"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="3" />
+
+                    <RadioButton
+                        android:id="@+id/r_btn1_21-4"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="4" />
+                </RadioGroup>
+
+                <TextView
+                    android:id="@+id/textQuestion22"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="24dp"
+                    android:layout_marginTop="16dp"
+                    android:layout_marginEnd="24dp"
+                    android:text="22. 무엇이든 할 수 있다고 스스로 입증하기 위해"
+                    android:textSize="14sp" />
+
+                <RadioGroup
+                    android:id="@+id/r_btn1_22"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginStart="24dp"
+                    android:layout_marginEnd="24dp"
+                    android:orientation="horizontal">
+
+                    <RadioButton
+                        android:id="@+id/r_btn1_22-0"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="0" />
+
+                    <RadioButton
+                        android:id="@+id/r_btn1_22-1"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="1" />
+
+                    <RadioButton
+                        android:id="@+id/r_btn1_22-2"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="2" />
+
+                    <RadioButton
+                        android:id="@+id/r_btn1_22-3"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="3" />
+
+                    <RadioButton
+                        android:id="@+id/r_btn1_22-4"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="4" />
+                </RadioGroup>
+
+                <TextView
+                    android:id="@+id/textQuestion23"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="24dp"
+                    android:layout_marginTop="16dp"
+                    android:layout_marginEnd="24dp"
+                    android:text="23. 성적인 흥분을 위해"
+                    android:textSize="14sp" />
+
+                <RadioGroup
+                    android:id="@+id/r_btn1_23"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginStart="24dp"
+                    android:layout_marginEnd="24dp"
+                    android:orientation="horizontal">
+
+                    <RadioButton
+                        android:id="@+id/r_btn1_23-0"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="0" />
+
+                    <RadioButton
+                        android:id="@+id/r_btn1_23-1"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="1" />
+
+                    <RadioButton
+                        android:id="@+id/r_btn1_23-2"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="2" />
+
+                    <RadioButton
+                        android:id="@+id/r_btn1_23-3"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="3" />
+
+                    <RadioButton
+                        android:id="@+id/r_btn1_23-4"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="4" />
+                </RadioGroup>
+
+                <TextView
+                    android:id="@+id/textQuestion24"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="24dp"
+                    android:layout_marginTop="16dp"
+                    android:layout_marginEnd="24dp"
+                    android:text="24. 성적 흥분을 감소시키기 위해"
+                    android:textSize="14sp" />
+
+                <RadioGroup
+                    android:id="@+id/r_btn1_24"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginStart="24dp"
+                    android:layout_marginEnd="24dp"
+                    android:orientation="horizontal">
+
+                    <RadioButton
+                        android:id="@+id/r_btn1_24-0"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="0" />
+
+                    <RadioButton
+                        android:id="@+id/r_btn1_24-1"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="1" />
+
+                    <RadioButton
+                        android:id="@+id/r_btn1_24-2"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="2" />
+
+                    <RadioButton
+                        android:id="@+id/r_btn1_24-3"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="3" />
+
+                    <RadioButton
+                        android:id="@+id/r_btn1_24-4"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="4" />
+                </RadioGroup>
+
+                <TextView
+                    android:id="@+id/textQuestion25"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="24dp"
+                    android:layout_marginTop="16dp"
+                    android:layout_marginEnd="24dp"
+                    android:text="25. 기타 다른 내용"
+                    android:textSize="14sp" />
+
+                <EditText
+                    android:id="@+id/a25_otherReason"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="24dp"
+                    android:layout_marginEnd="24dp"
+                    android:ems="10"
+                    android:hint="다른 이유를 적어주세요" />
+                <RadioGroup
+                    android:id="@+id/r_btn1_25"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginStart="24dp"
+                    android:layout_marginEnd="24dp"
+                    android:orientation="horizontal">
+
+                    <RadioButton
+                        android:id="@+id/r_btn1_25-0"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="0" />
+
+                    <RadioButton
+                        android:id="@+id/r_btn1_25-1"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="1" />
+
+                    <RadioButton
+                        android:id="@+id/r_btn1_25-2"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="2" />
+
+                    <RadioButton
+                        android:id="@+id/r_btn1_25-3"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="3" />
+
+                    <RadioButton
+                        android:id="@+id/r_btn1_25-4"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="4" />
+                </RadioGroup>
+
+
+                <Button
+                    android:id="@+id/test3_next"
+                    android:layout_width="wrap_content"
+                    android:layout_height="37dp"
+                    android:layout_marginTop="8dp"
+                    android:layout_gravity="center"
+                    android:text="next" />
+
+            </LinearLayout>
+        </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -7,14 +7,14 @@ import android.os.Bundle
 import com.project.greenmind.R
 import kotlinx.android.synthetic.main.activity_test3.*
 
-class TestActivity3 : AppCompatActivity() {
+class TestActivity3_2 : AppCompatActivity() {
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.activity_test3)
+        setContentView(R.layout.activity_test3_2)
 
         test3_next.setOnClickListener {
-            val intent = Intent(this, TestActivity3_2::class.java)
+            val intent = Intent(this, LastTestActivity::class.java)
             startActivity(intent)
         }
     }
