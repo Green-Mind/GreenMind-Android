@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".homeFragment.test_views.TestActivity1">
+    tools:context=".homeFragment.test_views.TestActivity1_2">
 
     <ScrollView
         android:layout_width="match_parent"
@@ -26,7 +26,7 @@
 
 
                 <TextView
-                    android:id="@+id/test1_title"
+                    android:id="@+id/test1_1_title"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:text="(1) 최근 자해 시도와 빈도"
@@ -36,26 +36,26 @@
                     app:layout_constraintTop_toTopOf="parent" />
 
                 <TextView
-                    android:id="@+id/test1_q1"
+                    android:id="@+id/test1_q7"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_marginStart="15dp"
                     android:layout_marginTop="15dp"
-                    android:text="1. 가장 최근 자해를 한 적은 언제 입니까?"
+                    android:text="7. 처음 자해를 하였던 장소는 어느 곳 입니까?"
                     android:textColor="#000000"
                     android:textSize="15dp"
                     android:textStyle="bold"
                     app:layout_constraintStart_toStartOf="parent"
-                    app:layout_constraintTop_toBottomOf="@id/test1_title" />
+                    app:layout_constraintTop_toBottomOf="@id/test1_1_title" />
 
                 <RadioGroup
-                    android:id="@+id/test1_a1"
+                    android:id="@+id/test1_a7"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_marginStart="15dp"
                     android:orientation="vertical"
                     app:layout_constraintStart_toStartOf="parent"
-                    app:layout_constraintTop_toBottomOf="@id/test1_q1">
+                    app:layout_constraintTop_toBottomOf="@id/test1_q7">
 
                     <RadioButton
                         android:layout_width="wrap_content"
@@ -65,7 +65,7 @@
                         android:enabled="true"
                         android:focusableInTouchMode="false"
                         android:saveEnabled="true"
-                        android:text="1주일 이내" />
+                        android:text="1.자신의 방" />
 
                     <RadioButton
                         android:layout_width="wrap_content"
@@ -75,7 +75,7 @@
                         android:enabled="true"
                         android:focusableInTouchMode="false"
                         android:saveEnabled="true"
-                        android:text="1주-1개월" />
+                        android:text="2.화장실" />
 
                     <RadioButton
                         android:layout_width="wrap_content"
@@ -85,7 +85,7 @@
                         android:enabled="true"
                         android:focusableInTouchMode="false"
                         android:saveEnabled="true"
-                        android:text="1-3개월" />
+                        android:text="3.공원" />
 
                     <RadioButton
                         android:layout_width="wrap_content"
@@ -94,409 +94,442 @@
                         android:enabled="true"
                         android:focusableInTouchMode="false"
                         android:saveEnabled="true"
-                        android:text="3-6개월" />
+                        android:text="4.골목길" />
 
                     <RadioButton
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:buttonTint="#4CAF50"
-                        android:text="6개월-1년" />
+                        android:text="5.친구의 집" />
 
                     <RadioButton
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:buttonTint="#4CAF50"
-                        android:text="1-2년" />
+                        android:text="6.학교 내" />
 
                     <RadioButton
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:buttonTint="#4CAF50"
-                        android:text="2년 전" />
-
-                    <RadioButton
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:buttonTint="#4CAF50"
-                        android:text="기타" />
-
+                        android:text="7.기타 다른 장소" />
 
                 </RadioGroup>
 
                 <TextView
-                    android:id="@+id/test1_q2"
+                    android:id="@+id/test1_q8"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_marginStart="15dp"
                     android:layout_marginTop="15dp"
-                    android:text="2. 앞으로 자해를 할 가능성은 얼마나 됩니까?"
+                    android:text="8. 처음 자해를 한 방법은 어떤 방법 입니까?"
                     android:textColor="#000000"
                     android:textSize="15dp"
                     android:textStyle="bold"
                     app:layout_constraintStart_toStartOf="parent"
-                    app:layout_constraintTop_toBottomOf="@id/test1_a1" />
+                    app:layout_constraintTop_toBottomOf="@id/test1_a7" />
 
                 <RadioGroup
-                    android:id="@+id/test1_a2"
+                    android:id="@+id/test1_a8"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_marginStart="15dp"
                     android:orientation="vertical"
                     app:layout_constraintStart_toStartOf="parent"
-                    app:layout_constraintTop_toBottomOf="@id/test1_q2">
+                    app:layout_constraintTop_toBottomOf="@id/test1_q8">
 
                     <RadioButton
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:buttonTint="#4CAF50"
-                        android:text="안할 것 같다." />
+                        android:text="1.손톱으로 꼬집거나 다른 물건으로 피부에 심각한 상처나 출혈이 나도록 했다." />
 
                     <RadioButton
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:buttonTint="#4CAF50"
-                        android:text="거의 안할 것 같다." />
+                        android:text="2.손목, 팔, 다리,  몸통 혹은 다른 신체 부위에 칼로 그었다." />
 
                     <RadioButton
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:buttonTint="#4CAF50"
-                        android:text="확실하지 않다." />
+                        android:text="3.피부에 산성 물질을 떨어뜨렸다." />
 
                     <RadioButton
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:buttonTint="#4CAF50"
-                        android:text="가끔 할 것 같다." />
+                        android:text="4.피부에 글자나 상징 같은 것을 새겼다." />
 
                     <RadioButton
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:buttonTint="#4CAF50"
-                        android:text="매우 높다." />
+                        android:text="5.부식성 물질이나 날카로운 물질을 삼켰다." />
+
+                    <RadioButton
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:buttonTint="#4CAF50"
+                        android:text="6.출혈이 발생할 만큼 깨물거나 피부에 상처를 남겼다." />
+
+                    <RadioButton
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:buttonTint="#4CAF50"
+                        android:text="7.뼈를 부러뜨리기 위한 시도를 하였다." />
+
+                    <RadioButton
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:buttonTint="#4CAF50"
+                        android:text="8.뼈를 부러뜨렸다." />
+
+                    <RadioButton
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:buttonTint="#4CAF50"
+                        android:text="9.피부를 찢거나 뜯어냈다." />
+
+                    <RadioButton
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:buttonTint="#4CAF50"
+                        android:text="10.손목, 손, 팔, 다리, 몸통 혹은 다른 신체부위를 불태웠다." />
+
+                    <RadioButton
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:buttonTint="#4CAF50"
+                        android:text="11.피부를 유리로 문지르거나 바늘, 핀, 스테이플러 같은 것으로 피부 표면이나 하부를 찔렀다." />
+
+                    <RadioButton
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:buttonTint="#4CAF50"
+                        android:text="12.어떤 물체로 타박상이나 출혈이 나도록 찌르거나 쳤다." />
+
+                    <RadioButton
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:buttonTint="#4CAF50"
+                        android:text="13.타박상이나 출혈이 나도록 찌르거나 쳤다." />
+
+                    <RadioButton
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:buttonTint="#4CAF50"
+                        android:text="14.의도적으로 상처가 치료되는 것을 막았다." />
+
+                    <RadioButton
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:buttonTint="#4CAF50"
+                        android:text="15.상처를 얻기 위한 의도로 싸움을 하거나 다른 공격적인 행동을 하였다." />
 
                 </RadioGroup>
 
+
                 <TextView
-                    android:id="@+id/test1_q3"
+                    android:id="@+id/test1_q9"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_marginStart="15dp"
                     android:layout_marginTop="15dp"
-                    android:text="3. 처음 자해를 했던 때는 언제입니까?"
+                    android:text="9. 자해를 하는 것에 대해 알고 있는 사람이 있습니까?"
                     android:textColor="#000000"
                     android:textSize="15dp"
                     android:textStyle="bold"
                     app:layout_constraintStart_toStartOf="parent"
-                    app:layout_constraintTop_toBottomOf="@id/test1_a2" />
-
-                <EditText
-                    android:id="@+id/test1_a3"
-                    android:layout_width="50dp"
-                    android:layout_height="wrap_content"
-                    android:textSize="10dp"
-                    app:layout_constraintEnd_toStartOf="@id/test1_a3_txt"
-                    app:layout_constraintTop_toTopOf="@id/test1_q3" />
-
-                <TextView
-                    android:id="@+id/test1_a3_txt"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_marginEnd="15dp"
-                    android:text="세"
-                    app:layout_constraintBottom_toBottomOf="@id/test1_q3"
-                    app:layout_constraintEnd_toEndOf="parent" />
-
-                <TextView
-                    android:id="@+id/test1_q4"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_marginStart="15dp"
-                    android:layout_marginTop="15dp"
-                    android:text="4. 자해를 했던 총 횟수는 몇 번입니까??"
-                    android:textColor="#000000"
-                    android:textSize="15dp"
-                    android:textStyle="bold"
-                    app:layout_constraintStart_toStartOf="parent"
-                    app:layout_constraintTop_toBottomOf="@id/test1_a3" />
+                    app:layout_constraintTop_toBottomOf="@id/test1_a8" />
 
                 <RadioGroup
-                    android:id="@+id/test1_a4"
+                    android:id="@+id/test1_a9"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_marginStart="15dp"
                     android:orientation="vertical"
                     app:layout_constraintStart_toStartOf="parent"
-                    app:layout_constraintTop_toBottomOf="@id/test1_q4">
+                    app:layout_constraintTop_toBottomOf="@id/test1_q9">
 
                     <RadioButton
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_marginEnd="10dp"
                         android:buttonTint="#4CAF50"
-                        android:text="단 한번" />
+                        android:text="1.아무도 모른다." />
 
                     <RadioButton
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_marginEnd="10dp"
                         android:buttonTint="#4CAF50"
-                        android:text="2~3회" />
+                        android:text="2.몇몇의 사람들" />
 
                     <RadioButton
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_marginEnd="10dp"
                         android:buttonTint="#4CAF50"
-                        android:text="4~5회" />
+                        android:text="3.대부분의 사람" />
 
-                    <RadioButton
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:buttonTint="#4CAF50"
-                        android:text="6~10회" />
-
-                    <RadioButton
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:buttonTint="#4CAF50"
-                        android:text="11~20회" />
-
-                    <RadioButton
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:buttonTint="#4CAF50"
-                        android:text="21~50회" />
-
-                    <RadioButton
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:buttonTint="#4CAF50"
-                        android:text="50회 이상" />
 
                 </RadioGroup>
 
                 <TextView
-                    android:id="@+id/test1_q5"
+                    android:id="@+id/test1_q10"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_marginStart="15dp"
                     android:layout_marginTop="15dp"
-                    android:text="5. 아래 문장 중 첫 번째 자해를 하게 되었던 동기를 가장 잘 설명하는 문장은 어떤 것입니까? (해당하는 것에 전부 체크해 주세요)"
+                    android:text="10. 자해를 알고 있는 사람은 누구입니까?"
                     android:textColor="#000000"
                     android:textSize="15dp"
                     android:textStyle="bold"
                     app:layout_constraintEnd_toEndOf="parent"
                     app:layout_constraintStart_toStartOf="parent"
-                    app:layout_constraintTop_toBottomOf="@id/test1_a4" />
+                    app:layout_constraintTop_toBottomOf="@id/test1_a9" />
 
                 <RadioGroup
-                    android:id="@+id/test1_a5"
+                    android:id="@+id/test1_a10"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_marginStart="15dp"
                     android:orientation="vertical"
                     app:layout_constraintStart_toStartOf="parent"
-                    app:layout_constraintTop_toBottomOf="@id/test1_q5">
+                    app:layout_constraintTop_toBottomOf="@id/test1_q10">
 
                     <RadioButton
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:buttonTint="#4CAF50"
-                        android:text="1.친구의 제안으로 자해를 하였다." />
+                        android:text="1.친구" />
 
                     <RadioButton
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:buttonTint="#4CAF50"
-                        android:text="2.인터넷에서 자해에 대해 알게 되었고 하기로 결심했다." />
+                        android:text="2.심리학자/정신의학자" />
 
                     <RadioButton
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:buttonTint="#4CAF50"
-                        android:text="3.책, TV, 영화에서 자해에 대해 읽거나 보고 하기로 결심했다." />
+                        android:text="3.다른 정신건강 전문가" />
 
                     <RadioButton
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:buttonTint="#4CAF50"
-                        android:text="4.내가 아는 사람이 자해를 하는 것 같다." />
+                        android:text="4.전화상담원" />
 
                     <RadioButton
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:buttonTint="#4CAF50"
-                        android:text="5.연예인이 자해를 한다고 들었다." />
+                        android:text="5.가족 구성원" />
 
                     <RadioButton
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:buttonTint="#4CAF50"
-                        android:text="6.나는 우연히 자해라는 것을 발견하였다(이전에 자해에 대해 보거나 들은적 없었다.)" />
+                        android:text="6.학교 상담사" />
 
                     <RadioButton
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:buttonTint="#4CAF50"
-                        android:text="7.자해는 용기가 생기게 하는 하나의 방법이다." />
-
-                    <RadioButton
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:buttonTint="#4CAF50"
-                        android:text="8.자해를 하는 친구 때문에 시작 하였다." />
-
-                    <RadioButton
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:buttonTint="#4CAF50"
-                        android:text="9.나는 어떤 집단에 속하길 바라는 마음에서 자해를 시작하였다." />
-
-                    <RadioButton
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:buttonTint="#4CAF50"
-                        android:text="10.다른 사람에게 상처나 충격을 주길 원해서 시작하였다." />
-
-                    <RadioButton
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:buttonTint="#4CAF50"
-                        android:text="11.나는 화가 난 상태에서 자해를 하기로 결심했다." />
-
-                    <RadioButton
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:buttonTint="#4CAF50"
-                        android:text="12.다른 사람이 나의 상처나, 나를 돌봐주기를 바라는 마음에서 자해를 시작하였다." />
-
-                    <RadioButton
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:buttonTint="#4CAF50"
-                        android:text="13.자해를 할 때 느낌이 좋다." />
-
-                    <RadioButton
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:buttonTint="#4CAF50"
-                        android:text="14.다른 사람이나 상황에 화가난 상태에서 자해를 하였다." />
-
-                    <RadioButton
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:buttonTint="#4CAF50"
-                        android:text="15.나는 내 자신에게 화가 났었다." />
-
-                    <RadioButton
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:buttonTint="#4CAF50"
-                        android:text="16.나는 술이나 본드, 수면제 등의 약물을 복용한 상태였다." />
-
-                    <RadioButton
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:buttonTint="#4CAF50"
-                        android:text="17.다른 구체적인 이유가 있다." />
-
-                    <RadioButton
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:buttonTint="#4CAF50"
-                        android:text="18.나는 기억할 수가 없다." />
+                        android:text="7.기타" />
 
                 </RadioGroup>
 
                 <TextView
-                    android:id="@+id/test1_q6"
+                    android:id="@+id/test1_q11"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_marginStart="15dp"
                     android:layout_marginTop="15dp"
-                    android:text="6. 처음 자해를 하였을 때, 어떤 경로를 통해 자해를 생각하게 되었습니까?"
+                    android:text="11.자해를 하였던 신체부위는 어디이며 가장 많이 한 부위는 어디입니까? (해당하는 것에 전부 체크해 주세요.)"
                     android:textColor="#000000"
                     android:textSize="15dp"
                     android:textStyle="bold"
                     app:layout_constraintStart_toStartOf="parent"
-                    app:layout_constraintTop_toBottomOf="@id/test1_a5"
+                    app:layout_constraintTop_toBottomOf="@id/test1_a10"
                     app:layout_constraintEnd_toEndOf="parent"/>
 
                 <RadioGroup
-                    android:id="@+id/test1_a6"
+                    android:id="@+id/test1_a11"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_marginStart="15dp"
                     android:orientation="vertical"
                     app:layout_constraintStart_toStartOf="parent"
-                    app:layout_constraintTop_toBottomOf="@id/test1_q6">
+                    app:layout_constraintTop_toBottomOf="@id/test1_q11">
 
                     <RadioButton
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:buttonTint="#4CAF50"
-                        android:text="1.인터넷 웹사이트를 통해 자해를 알게 되었다." />
+                        android:text="1.손목" />
 
                     <RadioButton
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:buttonTint="#4CAF50"
-                        android:text="2.병원이 아닌 다른 곳에서 다른 사람에게 자해에 대해 들었다." />
+                        android:text="2.손" />
 
                     <RadioButton
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:buttonTint="#4CAF50"
-                        android:text="3.웹 블로그에서 자해에 대해 읽었다." />
+                        android:text="3.손가락" />
 
                     <RadioButton
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:buttonTint="#4CAF50"
-                        android:text="4.병원에서 다른 사람에게 자해에 대해 들었다." />
+                        android:text="4.종아리 혹은 발목" />
 
                     <RadioButton
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:buttonTint="#4CAF50"
-                        android:text="5.책이나 잡지에서 자해에 대해 읽었다." />
+                        android:text="5.허벅지" />
 
                     <RadioButton
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:buttonTint="#4CAF50"
-                        android:text="6.병원에서 자해를 하는 다른 사람을 보았다." />
+                        android:text="6.복부 혹은 흉부" />
 
                     <RadioButton
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:buttonTint="#4CAF50"
-                        android:text="7.텔레비전과 영화에서 자해를 하는 것을 보았다." />
+                        android:text="7.등" />
 
                     <RadioButton
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:buttonTint="#4CAF50"
-                        android:text="8.자해에 대해 내가 생각했었다." />
+                        android:text="8.머리" />
 
                     <RadioButton
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:buttonTint="#4CAF50"
-                        android:text="9.병원이 아닌 다른 곳에서 자해를 하는 사람을 보았다." />
+                        android:text="9.발" />
 
                     <RadioButton
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:buttonTint="#4CAF50"
-                        android:text="10.기타" />
+                        android:text="10.얼굴" />
+
+                    <RadioButton
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:buttonTint="#4CAF50"
+                        android:text="11.입술 혹은 혀" />
+
+                    <RadioButton
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:buttonTint="#4CAF50"
+                        android:text="12.어깨 혹은 목" />
+
+                    <RadioButton
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:buttonTint="#4CAF50"
+                        android:text="13.유방" />
+
+                    <RadioButton
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:buttonTint="#4CAF50"
+                        android:text="14.생식기 혹은 직장" />
+
+                    <RadioButton
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:buttonTint="#4CAF50"
+                        android:text="15.기타" />
+
+                </RadioGroup>
+
+                <TextView
+                    android:id="@+id/test1_q12"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="15dp"
+                    android:layout_marginTop="15dp"
+                    android:text="12. 주로 자해를 하였던 장소는 어느 곳입니까?"
+                    android:textColor="#000000"
+                    android:textSize="15dp"
+                    android:textStyle="bold"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@id/test1_a11"
+                    app:layout_constraintEnd_toEndOf="parent"/>
+
+                <RadioGroup
+                    android:id="@+id/test1_a12"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="15dp"
+                    android:orientation="vertical"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@id/test1_q12">
+
+                    <RadioButton
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:buttonTint="#4CAF50"
+                        android:text="1.자신의 방" />
+
+                    <RadioButton
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:buttonTint="#4CAF50"
+                        android:text="2.화장실" />
+
+                    <RadioButton
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:buttonTint="#4CAF50"
+                        android:text="3.공원" />
+
+                    <RadioButton
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:buttonTint="#4CAF50"
+                        android:text="4.골목길" />
+
+                    <RadioButton
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:buttonTint="#4CAF50"
+                        android:text="5.친구의 집" />
+
+                    <RadioButton
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:buttonTint="#4CAF50"
+                        android:text="6.학교 내" />
+
+                    <RadioButton
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:buttonTint="#4CAF50"
+                        android:text="7.기타 다른 장소" />
+
 
                 </RadioGroup>
 
 
                 <Button
-                    android:id="@+id/test1_next"
+                    android:id="@+id/test1_2_next"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_marginTop="30dp"
@@ -505,9 +538,11 @@
                     app:layout_constraintBottom_toBottomOf="parent"
                     app:layout_constraintEnd_toEndOf="parent"
                     app:layout_constraintStart_toStartOf="parent"
-                    app:layout_constraintTop_toBottomOf="@id/test1_a6" />
+                    app:layout_constraintTop_toBottomOf="@id/test1_a12" />
 
             </androidx.constraintlayout.widget.ConstraintLayout>
         </androidx.constraintlayout.widget.ConstraintLayout>
     </ScrollView>
+
+
 </androidx.constraintlayout.widget.ConstraintLayout>

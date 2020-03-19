@@ -48,4 +48,10 @@ dependencies {
 
     //리사이클러뷰
     implementation 'androidx.recyclerview:recyclerview:1.1.0'
+
+    // 구글 Firebase
+    implementation 'com.google.firebase:firebase-analytics:17.2.2'
+    implementation 'com.google.firebase:firebase-database:17.0.0'
+    implementation 'com.google.firebase:firebase-auth:19.1.0'
+    implementation 'com.google.android.gms:play-services-auth:16.0.1'
 }
