@@ -106,31 +106,36 @@
                     android:id="@+id/r_btn1_1-0"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="0" />
+                    android:text="0"
+                    android:buttonTint="#4CAF50"/>
 
                 <RadioButton
                     android:id="@+id/r_btn1_1-1"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="1" />
+                    android:text="1"
+                    android:buttonTint="#4CAF50"/>
 
                 <RadioButton
                     android:id="@+id/r_btn1_1-2"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="2" />
+                    android:text="2"
+                    android:buttonTint="#4CAF50"/>
 
                 <RadioButton
                     android:id="@+id/r_btn1_1-3"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="3" />
+                    android:text="3"
+                    android:buttonTint="#4CAF50"/>
 
                 <RadioButton
                     android:id="@+id/r_btn1_1-4"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="4" />
+                    android:text="4"
+                    android:buttonTint="#4CAF50"/>
             </RadioGroup>
 
             <TextView
@@ -155,31 +160,36 @@
                     android:id="@+id/r_btn1_2-0"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="0" />
+                    android:text="0"
+                    android:buttonTint="#4CAF50"/>
 
                 <RadioButton
                     android:id="@+id/r_btn1_2-1"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="1" />
+                    android:text="1"
+                    android:buttonTint="#4CAF50"/>
 
                 <RadioButton
                     android:id="@+id/r_btn1_2-2"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="2" />
+                    android:text="2"
+                    android:buttonTint="#4CAF50"/>
 
                 <RadioButton
                     android:id="@+id/r_btn1_2-3"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="3" />
+                    android:text="3"
+                    android:buttonTint="#4CAF50"/>
 
                 <RadioButton
                     android:id="@+id/r_btn1_2-4"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="4" />
+                    android:text="4"
+                    android:buttonTint="#4CAF50"/>
             </RadioGroup>
 
             <TextView
@@ -204,31 +214,36 @@
                     android:id="@+id/r_btn1_3-0"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="0" />
+                    android:text="0"
+                    android:buttonTint="#4CAF50"/>
 
                 <RadioButton
                     android:id="@+id/r_btn1_3-1"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="1" />
+                    android:text="1"
+                    android:buttonTint="#4CAF50"/>
 
                 <RadioButton
                     android:id="@+id/r_btn1_3-2"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="2" />
+                    android:text="2"
+                    android:buttonTint="#4CAF50"/>
 
                 <RadioButton
                     android:id="@+id/r_btn1_3-3"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="3" />
+                    android:text="3"
+                    android:buttonTint="#4CAF50"/>
 
                 <RadioButton
                     android:id="@+id/r_btn1_3-4"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="4" />
+                    android:text="4"
+                    android:buttonTint="#4CAF50"/>
             </RadioGroup>
 
             <TextView
@@ -253,31 +268,36 @@
                     android:id="@+id/r_btn1_4-0"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="0" />
+                    android:text="0"
+                    android:buttonTint="#4CAF50"/>
 
                 <RadioButton
                     android:id="@+id/r_btn1_4-1"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="1" />
+                    android:text="1"
+                    android:buttonTint="#4CAF50"/>
 
                 <RadioButton
                     android:id="@+id/r_btn1_4-2"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="2" />
+                    android:text="2"
+                    android:buttonTint="#4CAF50"/>
 
                 <RadioButton
                     android:id="@+id/r_btn1_4-3"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="3" />
+                    android:text="3"
+                    android:buttonTint="#4CAF50"/>
 
                 <RadioButton
                     android:id="@+id/r_btn1_4-4"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="4" />
+                    android:text="4"
+                    android:buttonTint="#4CAF50"/>
             </RadioGroup>
 
             <TextView
@@ -302,31 +322,36 @@
                     android:id="@+id/r_btn1_5-0"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="0" />
+                    android:text="0"
+                    android:buttonTint="#4CAF50"/>
 
                 <RadioButton
                     android:id="@+id/r_btn1_5-1"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="1" />
+                    android:text="1"
+                    android:buttonTint="#4CAF50"/>
 
                 <RadioButton
                     android:id="@+id/r_btn1_5-2"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="2" />
+                    android:text="2"
+                    android:buttonTint="#4CAF50"/>
 
                 <RadioButton
                     android:id="@+id/r_btn1_5-3"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="3" />
+                    android:text="3"
+                    android:buttonTint="#4CAF50"/>
 
                 <RadioButton
                     android:id="@+id/r_btn1_5-4"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="4" />
+                    android:text="4"
+                    android:buttonTint="#4CAF50"/>
             </RadioGroup>
 
             <TextView
@@ -351,31 +376,36 @@
                     android:id="@+id/r_btn1_6-0"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="0" />
+                    android:text="0"
+                    android:buttonTint="#4CAF50"/>
 
                 <RadioButton
                     android:id="@+id/r_btn1_6-1"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="1" />
+                    android:text="1"
+                    android:buttonTint="#4CAF50"/>
 
                 <RadioButton
                     android:id="@+id/r_btn1_6-2"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="2" />
+                    android:text="2"
+                    android:buttonTint="#4CAF50"/>
 
                 <RadioButton
                     android:id="@+id/r_btn1_6-3"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="3" />
+                    android:text="3"
+                    android:buttonTint="#4CAF50"/>
 
                 <RadioButton
                     android:id="@+id/r_btn1_6-4"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="4" />
+                    android:text="4"
+                    android:buttonTint="#4CAF50"/>
             </RadioGroup>
 
             <TextView
@@ -400,31 +430,36 @@
                     android:id="@+id/r_btn1_7-0"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="0" />
+                    android:text="0"
+                    android:buttonTint="#4CAF50"/>
 
                 <RadioButton
                     android:id="@+id/r_btn1_7-1"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="1" />
+                    android:text="1"
+                    android:buttonTint="#4CAF50"/>
 
                 <RadioButton
                     android:id="@+id/r_btn1_7-2"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="2" />
+                    android:text="2"
+                    android:buttonTint="#4CAF50"/>
 
                 <RadioButton
                     android:id="@+id/r_btn1_7-3"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="3" />
+                    android:text="3"
+                    android:buttonTint="#4CAF50"/>
 
                 <RadioButton
                     android:id="@+id/r_btn1_7-4"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="4" />
+                    android:text="4"
+                    android:buttonTint="#4CAF50"/>
             </RadioGroup>
 
             <TextView
@@ -449,31 +484,36 @@
                     android:id="@+id/r_btn1_8-0"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="0" />
+                    android:text="0"
+                    android:buttonTint="#4CAF50"/>
 
                 <RadioButton
                     android:id="@+id/r_btn1_8-1"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="1" />
+                    android:text="1"
+                    android:buttonTint="#4CAF50"/>
 
                 <RadioButton
                     android:id="@+id/r_btn1_8-2"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="2" />
+                    android:text="2"
+                    android:buttonTint="#4CAF50"/>
 
                 <RadioButton
                     android:id="@+id/r_btn1_8-3"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="3" />
+                    android:text="3"
+                    android:buttonTint="#4CAF50"/>
 
                 <RadioButton
                     android:id="@+id/r_btn1_8-4"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="4" />
+                    android:text="4"
+                    android:buttonTint="#4CAF50"/>
             </RadioGroup>
 
             <TextView
@@ -498,31 +538,36 @@
                     android:id="@+id/r_btn1_9-0"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="0" />
+                    android:text="0"
+                    android:buttonTint="#4CAF50"/>
 
                 <RadioButton
                     android:id="@+id/r_btn1_9-1"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="1" />
+                    android:text="1"
+                    android:buttonTint="#4CAF50"/>
 
                 <RadioButton
                     android:id="@+id/r_btn1_9-2"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="2" />
+                    android:text="2"
+                    android:buttonTint="#4CAF50"/>
 
                 <RadioButton
                     android:id="@+id/r_btn1_9-3"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="3" />
+                    android:text="3"
+                    android:buttonTint="#4CAF50"/>
 
                 <RadioButton
                     android:id="@+id/r_btn1_9-4"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="4" />
+                    android:text="4"
+                    android:buttonTint="#4CAF50"/>
             </RadioGroup>
 
             <TextView
@@ -547,31 +592,36 @@
                     android:id="@+id/r_btn1_10-0"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="0" />
+                    android:text="0"
+                    android:buttonTint="#4CAF50"/>
 
                 <RadioButton
                     android:id="@+id/r_btn1_10-1"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="1" />
+                    android:text="1"
+                    android:buttonTint="#4CAF50"/>
 
                 <RadioButton
                     android:id="@+id/r_btn1_10-2"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="2" />
+                    android:text="2"
+                    android:buttonTint="#4CAF50"/>
 
                 <RadioButton
                     android:id="@+id/r_btn1_10-3"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="3" />
+                    android:text="3"
+                    android:buttonTint="#4CAF50"/>
 
                 <RadioButton
                     android:id="@+id/r_btn1_10-4"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="4" />
+                    android:text="4"
+                    android:buttonTint="#4CAF50"/>
             </RadioGroup>
 
             <TextView
@@ -596,31 +646,36 @@
                     android:id="@+id/r_btn1_11-0"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="0" />
+                    android:text="0"
+                    android:buttonTint="#4CAF50"/>
 
                 <RadioButton
                     android:id="@+id/r_btn1_11-1"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="1" />
+                    android:text="1"
+                    android:buttonTint="#4CAF50"/>
 
                 <RadioButton
                     android:id="@+id/r_btn1-11-2"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="2" />
+                    android:text="2"
+                    android:buttonTint="#4CAF50"/>
 
                 <RadioButton
                     android:id="@+id/r_btn1_11-3"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="3" />
+                    android:text="3"
+                    android:buttonTint="#4CAF50"/>
 
                 <RadioButton
                     android:id="@+id/r_btn1_11-4"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="4" />
+                    android:text="4"
+                    android:buttonTint="#4CAF50"/>
             </RadioGroup>
 
             <TextView
@@ -645,31 +700,36 @@
                     android:id="@+id/r_btn1_12-0"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="0" />
+                    android:text="0"
+                    android:buttonTint="#4CAF50"/>
 
                 <RadioButton
                     android:id="@+id/r_btn1_12-1"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="1" />
+                    android:text="1"
+                    android:buttonTint="#4CAF50"/>
 
                 <RadioButton
                     android:id="@+id/r_btn1_12-2"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="2" />
+                    android:text="2"
+                    android:buttonTint="#4CAF50"/>
 
                 <RadioButton
                     android:id="@+id/r_btn1_12-3"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="3" />
+                    android:text="3"
+                    android:buttonTint="#4CAF50"/>
 
                 <RadioButton
                     android:id="@+id/r_btn1_12-4"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="4" />
+                    android:text="4"
+                    android:buttonTint="#4CAF50"/>
             </RadioGroup>
 
             <TextView
@@ -694,31 +754,36 @@
                     android:id="@+id/r_btn1_13-0"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="0" />
+                    android:text="0"
+                    android:buttonTint="#4CAF50"/>
 
                 <RadioButton
                     android:id="@+id/r_btn1_13-1"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="1" />
+                    android:text="1"
+                    android:buttonTint="#4CAF50"/>
 
                 <RadioButton
                     android:id="@+id/r_btn1_13-2"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="2" />
+                    android:text="2"
+                    android:buttonTint="#4CAF50"/>
 
                 <RadioButton
                     android:id="@+id/r_btn1_13-3"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="3" />
+                    android:text="3"
+                    android:buttonTint="#4CAF50"/>
 
                 <RadioButton
                     android:id="@+id/r_btn1_13-4"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="4" />
+                    android:text="4"
+                    android:buttonTint="#4CAF50"/>
             </RadioGroup>
 
             <TextView
@@ -743,31 +808,36 @@
                     android:id="@+id/r_btn1_14-0"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="0" />
+                    android:text="0"
+                    android:buttonTint="#4CAF50"/>
 
                 <RadioButton
                     android:id="@+id/r_btn1_14-1"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="1" />
+                    android:text="1"
+                    android:buttonTint="#4CAF50"/>
 
                 <RadioButton
                     android:id="@+id/r_btn1_14-2"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="2" />
+                    android:text="2"
+                    android:buttonTint="#4CAF50"/>
 
                 <RadioButton
                     android:id="@+id/r_btn1_14-3"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="3" />
+                    android:text="3"
+                    android:buttonTint="#4CAF50"/>
 
                 <RadioButton
                     android:id="@+id/r_btn1_14-4"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="4" />
+                    android:text="4"
+                    android:buttonTint="#4CAF50"/>
             </RadioGroup>
 
             <TextView
@@ -792,31 +862,36 @@
                     android:id="@+id/r_btn1_15-0"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="0" />
+                    android:text="0"
+                    android:buttonTint="#4CAF50"/>
 
                 <RadioButton
                     android:id="@+id/r_btn1_15-1"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="1" />
+                    android:text="1"
+                    android:buttonTint="#4CAF50"/>
 
                 <RadioButton
                     android:id="@+id/r_btn1_15-2"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="2" />
+                    android:text="2"
+                    android:buttonTint="#4CAF50"/>
 
                 <RadioButton
                     android:id="@+id/r_btn1_15-3"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="3" />
+                    android:text="3"
+                    android:buttonTint="#4CAF50"/>
 
                 <RadioButton
                     android:id="@+id/r_btn1_15-4"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="4" />
+                    android:text="4"
+                    android:buttonTint="#4CAF50"/>
             </RadioGroup>
 
             <TextView
@@ -841,31 +916,36 @@
                     android:id="@+id/r_btn1_16-0"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="0" />
+                    android:text="0"
+                    android:buttonTint="#4CAF50"/>
 
                 <RadioButton
                     android:id="@+id/r_btn1_16-1"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="1" />
+                    android:text="1"
+                    android:buttonTint="#4CAF50"/>
 
                 <RadioButton
                     android:id="@+id/r_btn1_16-2"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="2" />
+                    android:text="2"
+                    android:buttonTint="#4CAF50"/>
 
                 <RadioButton
                     android:id="@+id/r_btn1_16-3"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="3" />
+                    android:text="3"
+                    android:buttonTint="#4CAF50"/>
 
                 <RadioButton
                     android:id="@+id/r_btn1_16-4"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="4" />
+                    android:text="4"
+                    android:buttonTint="#4CAF50"/>
             </RadioGroup>
 
             <TextView
@@ -896,25 +976,29 @@
                     android:id="@+id/r_btn1_17-1"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="1" />
+                    android:text="1"
+                    android:buttonTint="#4CAF50"/>
 
                 <RadioButton
                     android:id="@+id/r_btn1_17-2"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="2" />
+                    android:text="2"
+                    android:buttonTint="#4CAF50"/>
 
                 <RadioButton
                     android:id="@+id/r_btn1_17-3"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="3" />
+                    android:text="3"
+                    android:buttonTint="#4CAF50"/>
 
                 <RadioButton
                     android:id="@+id/r_btn1_17-4"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="4" />
+                    android:text="4"
+                    android:buttonTint="#4CAF50"/>
             </RadioGroup>
 
             <TextView
@@ -939,31 +1023,36 @@
                     android:id="@+id/r_btn1_18-0"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="0" />
+                    android:text="0"
+                    android:buttonTint="#4CAF50"/>
 
                 <RadioButton
                     android:id="@+id/r_btn1_18-1"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="1" />
+                    android:text="1"
+                    android:buttonTint="#4CAF50"/>
 
                 <RadioButton
                     android:id="@+id/r_btn1_18-2"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="2" />
+                    android:text="2"
+                    android:buttonTint="#4CAF50"/>
 
                 <RadioButton
                     android:id="@+id/r_btn1_18-3"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="3" />
+                    android:text="3"
+                    android:buttonTint="#4CAF50"/>
 
                 <RadioButton
                     android:id="@+id/r_btn1_18-4"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="4" />
+                    android:text="4"
+                    android:buttonTint="#4CAF50"/>
             </RadioGroup>
 
             <TextView
@@ -988,31 +1077,36 @@
                     android:id="@+id/r_btn1_19-0"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="0" />
+                    android:text="0"
+                    android:buttonTint="#4CAF50"/>
 
                 <RadioButton
                     android:id="@+id/r_btn1_19-1"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="1" />
+                    android:text="1"
+                    android:buttonTint="#4CAF50"/>
 
                 <RadioButton
                     android:id="@+id/r_btn1_19-2"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="2" />
+                    android:text="2"
+                    android:buttonTint="#4CAF50"/>
 
                 <RadioButton
                     android:id="@+id/r_btn1_19-3"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="3" />
+                    android:text="3"
+                    android:buttonTint="#4CAF50"/>
 
                 <RadioButton
                     android:id="@+id/r_btn1_19-4"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="4" />
+                    android:text="4"
+                    android:buttonTint="#4CAF50"/>
             </RadioGroup>
 
             <TextView
@@ -1037,31 +1131,36 @@
                     android:id="@+id/r_btn1_20-0"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="0" />
+                    android:text="0"
+                    android:buttonTint="#4CAF50"/>
 
                 <RadioButton
                     android:id="@+id/r_btn1_20-1"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="1" />
+                    android:text="1"
+                    android:buttonTint="#4CAF50"/>
 
                 <RadioButton
                     android:id="@+id/r_btn1_20-2"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="2" />
+                    android:text="2"
+                    android:buttonTint="#4CAF50"/>
 
                 <RadioButton
                     android:id="@+id/r_btn1_20-3"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="3" />
+                    android:text="3"
+                    android:buttonTint="#4CAF50"/>
 
                 <RadioButton
                     android:id="@+id/r_btn1_20-4"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="4" />
+                    android:text="4"
+                    android:buttonTint="#4CAF50"/>
             </RadioGroup>
 
             <TextView
@@ -1086,31 +1185,36 @@
                     android:id="@+id/r_btn1_21-0"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="0" />
+                    android:text="0"
+                    android:buttonTint="#4CAF50"/>
 
                 <RadioButton
                     android:id="@+id/r_btn1_21-1"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="1" />
+                    android:text="1"
+                    android:buttonTint="#4CAF50"/>
 
                 <RadioButton
                     android:id="@+id/r_btn1_21-2"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="2" />
+                    android:text="2"
+                    android:buttonTint="#4CAF50"/>
 
                 <RadioButton
                     android:id="@+id/r_btn1_21-3"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="3" />
+                    android:text="3"
+                    android:buttonTint="#4CAF50"/>
 
                 <RadioButton
                     android:id="@+id/r_btn1_21-4"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="4" />
+                    android:text="4"
+                    android:buttonTint="#4CAF50"/>
             </RadioGroup>
 
             <TextView
@@ -1135,31 +1239,36 @@
                     android:id="@+id/r_btn1_22-0"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="0" />
+                    android:text="0"
+                    android:buttonTint="#4CAF50"/>
 
                 <RadioButton
                     android:id="@+id/r_btn1_22-1"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="1" />
+                    android:text="1"
+                    android:buttonTint="#4CAF50"/>
 
                 <RadioButton
                     android:id="@+id/r_btn1_22-2"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="2" />
+                    android:text="2"
+                    android:buttonTint="#4CAF50"/>
 
                 <RadioButton
                     android:id="@+id/r_btn1_22-3"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="3" />
+                    android:text="3"
+                    android:buttonTint="#4CAF50"/>
 
                 <RadioButton
                     android:id="@+id/r_btn1_22-4"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="4" />
+                    android:text="4"
+                    android:buttonTint="#4CAF50"/>
             </RadioGroup>
 
             <TextView
@@ -1184,31 +1293,36 @@
                     android:id="@+id/r_btn1_23-0"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="0" />
+                    android:text="0"
+                    android:buttonTint="#4CAF50"/>
 
                 <RadioButton
                     android:id="@+id/r_btn1_23-1"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="1" />
+                    android:text="1"
+                    android:buttonTint="#4CAF50"/>
 
                 <RadioButton
                     android:id="@+id/r_btn1_23-2"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="2" />
+                    android:text="2"
+                    android:buttonTint="#4CAF50"/>
 
                 <RadioButton
                     android:id="@+id/r_btn1_23-3"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="3" />
+                    android:text="3"
+                    android:buttonTint="#4CAF50"/>
 
                 <RadioButton
                     android:id="@+id/r_btn1_23-4"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="4" />
+                    android:text="4"
+                    android:buttonTint="#4CAF50"/>
             </RadioGroup>
 
             <TextView
@@ -1233,31 +1347,36 @@
                     android:id="@+id/r_btn1_24-0"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="0" />
+                    android:text="0"
+                    android:buttonTint="#4CAF50"/>
 
                 <RadioButton
                     android:id="@+id/r_btn1_24-1"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="1" />
+                    android:text="1"
+                    android:buttonTint="#4CAF50"/>
 
                 <RadioButton
                     android:id="@+id/r_btn1_24-2"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="2" />
+                    android:text="2"
+                    android:buttonTint="#4CAF50"/>
 
                 <RadioButton
                     android:id="@+id/r_btn1_24-3"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="3" />
+                    android:text="3"
+                    android:buttonTint="#4CAF50"/>
 
                 <RadioButton
                     android:id="@+id/r_btn1_24-4"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="4" />
+                    android:text="4"
+                    android:buttonTint="#4CAF50"/>
             </RadioGroup>
 
             <TextView
@@ -1290,31 +1409,36 @@
                     android:id="@+id/r_btn1_25-0"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="0" />
+                    android:text="0"
+                    android:buttonTint="#4CAF50"/>
 
                 <RadioButton
                     android:id="@+id/r_btn1_25-1"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="1" />
+                    android:text="1"
+                    android:buttonTint="#4CAF50"/>
 
                 <RadioButton
                     android:id="@+id/r_btn1_25-2"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="2" />
+                    android:text="2"
+                    android:buttonTint="#4CAF50"/>
 
                 <RadioButton
                     android:id="@+id/r_btn1_25-3"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="3" />
+                    android:text="3"
+                    android:buttonTint="#4CAF50"/>
 
                 <RadioButton
                     android:id="@+id/r_btn1_25-4"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="4" />
+                    android:text="4"
+                    android:buttonTint="#4CAF50"/>
             </RadioGroup>
 
 
