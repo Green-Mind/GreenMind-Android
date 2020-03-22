@@ -184,17 +184,6 @@
                     app:layout_constraintStart_toStartOf="@+id/button6"
                     app:layout_constraintTop_toBottomOf="@+id/button6" />
 
-                <TextView
-                    android:id="@+id/textFooter1"
-                    android:layout_width="117dp"
-                    android:layout_height="18dp"
-                    android:text="※ 출처 : 어쩌구 저쩌구"
-                    android:textColor="#3F51B5"
-                    android:textSize="12sp"
-                    app:layout_constraintEnd_toEndOf="@+id/button5"
-                    app:layout_constraintStart_toStartOf="@+id/button5"
-                    tools:layout_editor_absoluteY="561dp" />
-
             </androidx.constraintlayout.widget.ConstraintLayout>
         </ScrollView>
     </androidx.constraintlayout.widget.ConstraintLayout>
