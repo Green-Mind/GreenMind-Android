@@ -42,6 +42,7 @@ dependencies {
     testImplementation 'junit:junit:4.12'
     androidTestImplementation 'androidx.test.ext:junit:1.1.1'
     androidTestImplementation 'androidx.test.espresso:espresso-core:3.2.0'
+    implementation 'com.github.PhilJay:MPAndroidChart:v3.1.0' //
 
     //네비게이션바
     implementation 'com.android.support:design:29.0.2'

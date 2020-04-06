@@ -27,6 +27,7 @@
         <activity android:name=".homeFragment.test_views.TestActivity3_2" />
         <activity android:name=".homeFragment.test_views.TestActivity2" />
         <activity android:name=".homeFragment.test_views.TestActivity1" />
+        <activity android:name=".homeFragment.test_views.GraphResult" />
         <activity android:name=".sign.SignUpFinishActivity" />
         <activity android:name=".sign.SignUpActivity" />
         <activity android:name=".sign.SignInActivity">
