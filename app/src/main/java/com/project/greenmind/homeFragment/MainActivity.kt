@@ -8,7 +8,7 @@ import com.project.greenmind.R
 import kotlinx.android.synthetic.main.activity_main.*
 class MainActivity : AppCompatActivity() {
 
-    //private lateinit var otherFragment: TestFragment
+        lateinit var otherFragment: TestFragment
 
     private val mOnNavigationiItemSelectedListener = BottomNavigationView.OnNavigationItemSelectedListener {item ->
         when(item.itemId){

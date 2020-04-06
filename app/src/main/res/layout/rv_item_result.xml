@@ -17,7 +17,7 @@
         android:layout_marginBottom="10dp"
         android:layout_marginStart="7dp"
         android:layout_marginEnd="7dp"
-        >
+        android:background="@drawable/result_item_back">
 
         <TextView
             android:id="@+id/rv_date"

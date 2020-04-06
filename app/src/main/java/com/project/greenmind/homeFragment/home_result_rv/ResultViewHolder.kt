@@ -10,6 +10,6 @@ class ResultViewHolder(view: View) : RecyclerView.ViewHolder(view) {
     val date : TextView=view.findViewById(R.id.rv_date)
 
     fun bind(data:ResultItem){
-        date.text=data.resultDate
-    }
+    date.text=data.resultDate
+}
 }

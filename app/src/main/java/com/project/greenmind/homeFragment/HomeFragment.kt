@@ -1,6 +1,5 @@
 package com.project.greenmind.homeFragment
 
-
 import android.os.Bundle
 import androidx.fragment.app.Fragment
 import android.view.LayoutInflater
