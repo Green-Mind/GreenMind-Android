@@ -14,7 +14,7 @@ class TestActivity3_2 : AppCompatActivity() {
         setContentView(R.layout.activity_test3_2)
 
         test3_next.setOnClickListener {
-            val intent = Intent(this, LastTestActivity::class.java)
+            val intent = Intent(this, GraphResult::class.java)
             startActivity(intent)
         }
     }
