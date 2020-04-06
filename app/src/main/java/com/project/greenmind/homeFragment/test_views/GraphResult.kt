@@ -52,54 +52,34 @@ class GraphResult  : AppCompatActivity() {
             isGranularityEnabled = true // x축 간격을 제한하는 세분화 기능
         }
 
-        lineChart.apply { // 차트 라인 세팅
+        lineChart.apply {
+            // 차트 라인 세팅
             axisRight.isEnabled = false // y축의 오른쪽 데이터 비활성화
             axisLeft.axisMaximum = 50f // y축의 왼쪽 데이터 최대값은 50으로
-            legend.apply { // 범레 세팅
+            legend.apply {
+                // 범레 세팅
                 textSize = 15f // 글자 크기 지정
-                verticalAlignment = Legend.LegendVerticalAlignment.Top // 수직 조정 -> 위로
+                verticalAlignment = Legend.LegendVerticalAlignment.TOP // 수직 조정 -> 위로
                 horizontalAlignment = Legend.LegendHorizontalAlignment.CENTER // 수평 조정 -> 가운데로
                 orientation = Legend.LegendOrientation.HORIZONTAL // 범례와 차트 정렬 -> 수평
                 setDrawInside(false) // 차트안에 그릴것인가?
             }
             val lineData = LineData()
             lineChart.data = lineData // 라인 차트 데이터 정리
-            feedMultiple()
         }
     }
 
-    private fun feedMultiple() {
-        if(thread != null) {
-            thread!!.interrupt()
-        }
-
-        val runnable = Runnable {
-            addEntry()
-        }
-
-        thread = Thread(Runnable {
-            while (true) {
-                runOnUiThread(runnable)
-                try {
-                    Thread.sleep(1000)
-                } catch (e:InterruptedException) {
-                    e.printStackTrace()
-                }
-            }
-        })
-        thread!!.start()
-    }
 
     private fun addEntry() {
         val data = lineChart.data
         // 라인차트
         data?.let {
-            var set:ILineDataSet? = data.getDataSetByIndex(0)
-            if(set == null){
-                set=createSet()
+            var set: ILineDataSet? = data.getDataSetByIndex(0)
+            if (set == null) {
+                set = createSet()
                 data.addDataSet(set)
             }
-            data.addEntry(Entry(set.entryCount.toFloat(), floatTemp), 0)
+            //data.addEntry(Entry(set.entryCount.toFloat(), floatTemp), 0)
             // 데이터 엔트리 추가 ENtry(x값, y값)
             data.notifyDataChanged() // 데이터 변경 알림
             lineChart.apply {
@@ -115,9 +95,9 @@ class GraphResult  : AppCompatActivity() {
         }
     }
 
-    private fun createSet() : LineDataSet {
+    private fun createSet(): LineDataSet {
         val set = LineDataSet(null, "점수") // 범례 yVals 설정
-        set.apply {
+        return set.apply {
             axisDependency = YAxis.AxisDependency.LEFT // y값 데이터를 왼쪽으로
             //color = resources.getColor(R.color.black) // 색 지정
             valueTextSize = 10f // 값 글자 크기
@@ -128,6 +108,6 @@ class GraphResult  : AppCompatActivity() {
             highLightColor = Color.BLACK // 라이라이트 컬러 지정
             setDrawValues(true) // 값을 그리기
         }
-    }
 
+    }
 }
