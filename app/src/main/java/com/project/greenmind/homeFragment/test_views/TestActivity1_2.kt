@@ -16,14 +16,13 @@ class TestActivity1_2 : AppCompatActivity() {
 
         test1_2_next.setOnClickListener {
             val intent = Intent(this, TestActivity2::class.java)
-            startActivity(intent)
+            startActivityForResult(intent, 2000)
         }
     }
     @SuppressLint("MissingSuperCall")
     override fun onActivityResult(requestCode: Int, resultCode: Int, data: Intent?) {
         if (requestCode == 2000){
-            //finish()
-            finishActivity(3000)
+            finish()
         }
     }
 }

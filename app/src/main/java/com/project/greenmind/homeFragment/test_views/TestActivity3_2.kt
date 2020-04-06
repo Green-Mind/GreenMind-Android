@@ -6,6 +6,7 @@ import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import com.project.greenmind.R
 import kotlinx.android.synthetic.main.activity_test3.*
+import kotlinx.android.synthetic.main.activity_test3_2.*
 
 class TestActivity3_2 : AppCompatActivity() {
 
@@ -13,9 +14,9 @@ class TestActivity3_2 : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_test3_2)
 
-        test3_next.setOnClickListener {
+        test3_next_1.setOnClickListener {
             val intent = Intent(this, GraphResult::class.java)
-            startActivity(intent)
+            startActivityForResult(intent,5000)
         }
     }
 
@@ -25,9 +26,8 @@ class TestActivity3_2 : AppCompatActivity() {
 
     @SuppressLint("MissingSuperCall")
     override fun onActivityResult(requestCode: Int, resultCode: Int, data: Intent?) {
-        if (requestCode == 1000){
-            //finish()
-            finishActivity(2000)
+        if (requestCode == 5000){
+            finish()
         }
     }
 }

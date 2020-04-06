@@ -14,7 +14,6 @@ class LastTestActivity : AppCompatActivity() {
 
         btn_finish.setOnClickListener {
             //finish()
-            finishActivity(1000)
             finish()
         }
     }

@@ -14,14 +14,14 @@ class TestActivity1 : AppCompatActivity() {
         setContentView(R.layout.activity_test1)
 
         test1_next.setOnClickListener {
-            val intent = Intent(this, TestActivity2::class.java)
-            startActivity(intent)
+            val intent = Intent(this, TestActivity1_2::class.java)
+            startActivityForResult(intent, 1000)
         }
 
     }
     @SuppressLint("MissingSuperCall")
     override fun onActivityResult(requestCode: Int, resultCode: Int, data: Intent?) {
-        if (requestCode == 3000){
+        if (requestCode == 1000){
             finish()
         }
     }

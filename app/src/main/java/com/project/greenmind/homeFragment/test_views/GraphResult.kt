@@ -22,9 +22,9 @@ class GraphResult  : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.graph_result)
 
-        test3_next.setOnClickListener {
+        btn_last.setOnClickListener {
             val intent = Intent(this, LastTestActivity::class.java)
-            startActivity(intent)
+            startActivityForResult(intent,6000)
         }
     }
 
@@ -34,9 +34,8 @@ class GraphResult  : AppCompatActivity() {
 
     @SuppressLint("MissingSuperCall")
     override fun onActivityResult(requestCode: Int, resultCode: Int, data: Intent?) {
-        if (requestCode == 1000) {
-            //finish()
-            finishActivity(2000)
+        if (requestCode == 6000) {
+            finish()
         }
     }
 
