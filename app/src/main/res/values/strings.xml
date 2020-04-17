@@ -30,7 +30,8 @@
     <string name="home_profile_title">My profile</string>
     <string name="home_profile_name">김덕성</string>
     <string name="home_profile_live">서울시 도봉구</string>
+    <string name="home_logout">Logout</string>
     <string name="home_result_title">Result List</string>
     <string name="rv_result_date">2020/02/28</string>
-    <string name="default_web_client_id" />
+
 </resources>
