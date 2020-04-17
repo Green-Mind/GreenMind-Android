@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "1042025504423",
+    "firebase_url": "https://dsc-sc.firebaseio.com",
+    "project_id": "dsc-sc",
+    "storage_bucket": "dsc-sc.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1042025504423:android:e8b28c19b61bba36054582",
+        "android_client_info": {
+          "package_name": "com.project.greenmind"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1042025504423-jktndra124ahdo0mfov77l2au1pm3qsl.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.project.greenmind",
+            "certificate_hash": "639950fbe8ad478e1d7825c3e18b60a2a5f42324"
+          }
+        },
+        {
+          "client_id": "1042025504423-vgkgu0faii92o517cffsbs6hk8ul3o82.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA0MQl2vMyw3U6GpgxqCPFBiPQSfvpx_Is"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1042025504423-vgkgu0faii92o517cffsbs6hk8ul3o82.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
