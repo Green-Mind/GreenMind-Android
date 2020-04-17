@@ -29,10 +29,12 @@
                     android:id="@+id/test1_title"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="(1) 최근 자해 시도와 빈도"
-                    android:textSize="30dp"
+                    android:layout_marginStart="24dp"
+                    android:layout_marginTop="24dp"
+                    android:text="Part1. 최근 자해 시도와 빈도(1)"
+                    android:textSize="24sp"
                     android:textStyle="bold"
-                    app:layout_constraintLeft_toLeftOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
                     app:layout_constraintTop_toTopOf="parent" />
 
                 <TextView
@@ -65,6 +67,7 @@
                         android:enabled="true"
                         android:focusableInTouchMode="false"
                         android:saveEnabled="true"
+                        android:tag="test1_a1_1"
                         android:text="1주일 이내" />
 
                     <RadioButton
@@ -75,6 +78,7 @@
                         android:enabled="true"
                         android:focusableInTouchMode="false"
                         android:saveEnabled="true"
+                        android:tag="test1_a1_2"
                         android:text="1주-1개월" />
 
                     <RadioButton
@@ -85,6 +89,7 @@
                         android:enabled="true"
                         android:focusableInTouchMode="false"
                         android:saveEnabled="true"
+                        android:tag="test1_a1_3"
                         android:text="1-3개월" />
 
                     <RadioButton
@@ -94,30 +99,35 @@
                         android:enabled="true"
                         android:focusableInTouchMode="false"
                         android:saveEnabled="true"
+                        android:tag="test1_a1_4"
                         android:text="3-6개월" />
 
                     <RadioButton
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:buttonTint="#4CAF50"
+                        android:tag="test1_a1_5"
                         android:text="6개월-1년" />
 
                     <RadioButton
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:buttonTint="#4CAF50"
+                        android:tag="test1_a1_6"
                         android:text="1-2년" />
 
                     <RadioButton
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:buttonTint="#4CAF50"
+                        android:tag="test1_a1_7"
                         android:text="2년 전" />
 
                     <RadioButton
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:buttonTint="#4CAF50"
+                        android:tag="test1_a1_8"
                         android:text="기타" />
 
 
@@ -149,30 +159,35 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:buttonTint="#4CAF50"
+                        android:tag="test1_a2_1"
                         android:text="안할 것 같다." />
 
                     <RadioButton
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:buttonTint="#4CAF50"
+                        android:tag="test1_a2_2"
                         android:text="거의 안할 것 같다." />
 
                     <RadioButton
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:buttonTint="#4CAF50"
+                        android:tag="test1_a2_3"
                         android:text="확실하지 않다." />
 
                     <RadioButton
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:buttonTint="#4CAF50"
+                        android:tag="test1_a2_4"
                         android:text="가끔 할 것 같다." />
 
                     <RadioButton
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:buttonTint="#4CAF50"
+                        android:tag="test1_a2_5"
                         android:text="매우 높다." />
 
                 </RadioGroup>
@@ -234,6 +249,7 @@
                         android:layout_height="wrap_content"
                         android:layout_marginEnd="10dp"
                         android:buttonTint="#4CAF50"
+                        android:tag="test1_a4_1"
                         android:text="단 한번" />
 
                     <RadioButton
@@ -241,6 +257,7 @@
                         android:layout_height="wrap_content"
                         android:layout_marginEnd="10dp"
                         android:buttonTint="#4CAF50"
+                        android:tag="test1_a4_2"
                         android:text="2~3회" />
 
                     <RadioButton
@@ -248,30 +265,35 @@
                         android:layout_height="wrap_content"
                         android:layout_marginEnd="10dp"
                         android:buttonTint="#4CAF50"
+                        android:tag="test1_a4_3"
                         android:text="4~5회" />
 
                     <RadioButton
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:buttonTint="#4CAF50"
+                        android:tag="test1_a4_4"
                         android:text="6~10회" />
 
                     <RadioButton
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:buttonTint="#4CAF50"
+                        android:tag="test1_a4_5"
                         android:text="11~20회" />
 
                     <RadioButton
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:buttonTint="#4CAF50"
+                        android:tag="test1_a4_6"
                         android:text="21~50회" />
 
                     <RadioButton
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:buttonTint="#4CAF50"
+                        android:tag="test1_a4_7"
                         android:text="50회 이상" />
 
                 </RadioGroup>
@@ -303,108 +325,126 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:buttonTint="#4CAF50"
+                        android:tag="test1_a5_1"
                         android:text="1.친구의 제안으로 자해를 하였다." />
 
                     <RadioButton
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:buttonTint="#4CAF50"
+                        android:tag="test1_a5_2"
                         android:text="2.인터넷에서 자해에 대해 알게 되었고 하기로 결심했다." />
 
                     <RadioButton
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:buttonTint="#4CAF50"
+                        android:tag="test1_a5_3"
                         android:text="3.책, TV, 영화에서 자해에 대해 읽거나 보고 하기로 결심했다." />
 
                     <RadioButton
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:buttonTint="#4CAF50"
+                        android:tag="test1_a5_4"
                         android:text="4.내가 아는 사람이 자해를 하는 것 같다." />
 
                     <RadioButton
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:buttonTint="#4CAF50"
+                        android:tag="test1_a5_5"
                         android:text="5.연예인이 자해를 한다고 들었다." />
 
                     <RadioButton
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:buttonTint="#4CAF50"
+                        android:tag="test1_a5_6"
                         android:text="6.나는 우연히 자해라는 것을 발견하였다(이전에 자해에 대해 보거나 들은적 없었다.)" />
 
                     <RadioButton
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:buttonTint="#4CAF50"
+                        android:tag="test1_a5_7"
                         android:text="7.자해는 용기가 생기게 하는 하나의 방법이다." />
 
                     <RadioButton
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:buttonTint="#4CAF50"
+                        android:tag="test1_a5_8"
                         android:text="8.자해를 하는 친구 때문에 시작 하였다." />
 
                     <RadioButton
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:buttonTint="#4CAF50"
+                        android:tag="test1_a5_9"
                         android:text="9.나는 어떤 집단에 속하길 바라는 마음에서 자해를 시작하였다." />
 
                     <RadioButton
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:buttonTint="#4CAF50"
+                        android:tag="test1_a5_10"
                         android:text="10.다른 사람에게 상처나 충격을 주길 원해서 시작하였다." />
 
                     <RadioButton
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:buttonTint="#4CAF50"
+                        android:tag="test1_a5_11"
                         android:text="11.나는 화가 난 상태에서 자해를 하기로 결심했다." />
 
                     <RadioButton
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:buttonTint="#4CAF50"
+                        android:tag="test1_a5_12"
                         android:text="12.다른 사람이 나의 상처나, 나를 돌봐주기를 바라는 마음에서 자해를 시작하였다." />
 
                     <RadioButton
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:buttonTint="#4CAF50"
+                        android:tag="test1_a5_13"
                         android:text="13.자해를 할 때 느낌이 좋다." />
 
                     <RadioButton
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:buttonTint="#4CAF50"
+                        android:tag="test1_a5_14"
                         android:text="14.다른 사람이나 상황에 화가난 상태에서 자해를 하였다." />
 
                     <RadioButton
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:buttonTint="#4CAF50"
+                        android:tag="test1_a5_15"
                         android:text="15.나는 내 자신에게 화가 났었다." />
 
                     <RadioButton
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:buttonTint="#4CAF50"
+                        android:tag="test1_a5_16"
                         android:text="16.나는 술이나 본드, 수면제 등의 약물을 복용한 상태였다." />
 
                     <RadioButton
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:buttonTint="#4CAF50"
+                        android:tag="test1_a5_17"
                         android:text="17.다른 구체적인 이유가 있다." />
 
                     <RadioButton
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:buttonTint="#4CAF50"
+                        android:tag="test1_a5_18"
                         android:text="18.나는 기억할 수가 없다." />
 
                 </RadioGroup>
@@ -436,60 +476,70 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:buttonTint="#4CAF50"
+                        android:tag="test1_a6_1"
                         android:text="1.인터넷 웹사이트를 통해 자해를 알게 되었다." />
 
                     <RadioButton
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:buttonTint="#4CAF50"
+                        android:tag="test1_a6_2"
                         android:text="2.병원이 아닌 다른 곳에서 다른 사람에게 자해에 대해 들었다." />
 
                     <RadioButton
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:buttonTint="#4CAF50"
+                        android:tag="test1_a6_3"
                         android:text="3.웹 블로그에서 자해에 대해 읽었다." />
 
                     <RadioButton
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:buttonTint="#4CAF50"
+                        android:tag="test1_a6_4"
                         android:text="4.병원에서 다른 사람에게 자해에 대해 들었다." />
 
                     <RadioButton
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:buttonTint="#4CAF50"
+                        android:tag="test1_a6_5"
                         android:text="5.책이나 잡지에서 자해에 대해 읽었다." />
 
                     <RadioButton
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:buttonTint="#4CAF50"
+                        android:tag="test1_a6_6"
                         android:text="6.병원에서 자해를 하는 다른 사람을 보았다." />
 
                     <RadioButton
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:buttonTint="#4CAF50"
+                        android:tag="test1_a6_7"
                         android:text="7.텔레비전과 영화에서 자해를 하는 것을 보았다." />
 
                     <RadioButton
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:buttonTint="#4CAF50"
+                        android:tag="test1_a6_8"
                         android:text="8.자해에 대해 내가 생각했었다." />
 
                     <RadioButton
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:buttonTint="#4CAF50"
+                        android:tag="test1_a6_9"
                         android:text="9.병원이 아닌 다른 곳에서 자해를 하는 사람을 보았다." />
 
                     <RadioButton
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:buttonTint="#4CAF50"
+                        android:tag="test1_a6_10"
                         android:text="10.기타" />
 
                 </RadioGroup>

@@ -29,10 +29,12 @@
                     android:id="@+id/test1_1_title"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="(1) 최근 자해 시도와 빈도"
-                    android:textSize="30dp"
+                    android:layout_marginStart="24dp"
+                    android:layout_marginTop="24dp"
+                    android:text="Part1. 최근 자해 시도와 빈도(2)"
+                    android:textSize="24sp"
                     android:textStyle="bold"
-                    app:layout_constraintLeft_toLeftOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
                     app:layout_constraintTop_toTopOf="parent" />
 
                 <TextView
@@ -52,7 +54,7 @@
                     android:id="@+id/test1_a7"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:layout_marginStart="15dp"
+                    android:layout_marginStart="24dp"
                     android:orientation="vertical"
                     app:layout_constraintStart_toStartOf="parent"
                     app:layout_constraintTop_toBottomOf="@id/test1_q7">
@@ -65,6 +67,7 @@
                         android:enabled="true"
                         android:focusableInTouchMode="false"
                         android:saveEnabled="true"
+                        android:tag="test1_a7_1"
                         android:text="1.자신의 방" />
 
                     <RadioButton
@@ -75,6 +78,7 @@
                         android:enabled="true"
                         android:focusableInTouchMode="false"
                         android:saveEnabled="true"
+                        android:tag="test1_a7_2"
                         android:text="2.화장실" />
 
                     <RadioButton
@@ -85,6 +89,7 @@
                         android:enabled="true"
                         android:focusableInTouchMode="false"
                         android:saveEnabled="true"
+                        android:tag="test1_a7_3"
                         android:text="3.공원" />
 
                     <RadioButton
@@ -94,24 +99,28 @@
                         android:enabled="true"
                         android:focusableInTouchMode="false"
                         android:saveEnabled="true"
+                        android:tag="test1_a7__4"
                         android:text="4.골목길" />
 
                     <RadioButton
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:buttonTint="#4CAF50"
+                        android:tag="test1_a7_5"
                         android:text="5.친구의 집" />
 
                     <RadioButton
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:buttonTint="#4CAF50"
+                        android:tag="test1_a7_6"
                         android:text="6.학교 내" />
 
                     <RadioButton
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:buttonTint="#4CAF50"
+                        android:tag="test1_a7_7"
                         android:text="7.기타 다른 장소" />
 
                 </RadioGroup>
@@ -142,90 +151,105 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:buttonTint="#4CAF50"
+                        android:tag="test1_a8_1"
                         android:text="1.손톱으로 꼬집거나 다른 물건으로 피부에 심각한 상처나 출혈이 나도록 했다." />
 
                     <RadioButton
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:buttonTint="#4CAF50"
+                        android:tag="test1_a8_2"
                         android:text="2.손목, 팔, 다리,  몸통 혹은 다른 신체 부위에 칼로 그었다." />
 
                     <RadioButton
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:buttonTint="#4CAF50"
+                        android:tag="test1_a8_3"
                         android:text="3.피부에 산성 물질을 떨어뜨렸다." />
 
                     <RadioButton
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:buttonTint="#4CAF50"
+                        android:tag="test1_a8_4"
                         android:text="4.피부에 글자나 상징 같은 것을 새겼다." />
 
                     <RadioButton
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:buttonTint="#4CAF50"
+                        android:tag="test1_a8_5"
                         android:text="5.부식성 물질이나 날카로운 물질을 삼켰다." />
 
                     <RadioButton
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:buttonTint="#4CAF50"
+                        android:tag="test1_a8_6"
                         android:text="6.출혈이 발생할 만큼 깨물거나 피부에 상처를 남겼다." />
 
                     <RadioButton
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:buttonTint="#4CAF50"
+                        android:tag="test1_a8_7"
                         android:text="7.뼈를 부러뜨리기 위한 시도를 하였다." />
 
                     <RadioButton
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:buttonTint="#4CAF50"
+                        android:tag="test1_a8_8"
                         android:text="8.뼈를 부러뜨렸다." />
 
                     <RadioButton
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:buttonTint="#4CAF50"
+                        android:tag="test1_a8_9"
                         android:text="9.피부를 찢거나 뜯어냈다." />
 
                     <RadioButton
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:buttonTint="#4CAF50"
+                        android:tag="test1_a8_10"
                         android:text="10.손목, 손, 팔, 다리, 몸통 혹은 다른 신체부위를 불태웠다." />
 
                     <RadioButton
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:buttonTint="#4CAF50"
+                        android:tag="test1_a8_11"
                         android:text="11.피부를 유리로 문지르거나 바늘, 핀, 스테이플러 같은 것으로 피부 표면이나 하부를 찔렀다." />
 
                     <RadioButton
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:buttonTint="#4CAF50"
+                        android:tag="test1_a8_12"
                         android:text="12.어떤 물체로 타박상이나 출혈이 나도록 찌르거나 쳤다." />
 
                     <RadioButton
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:buttonTint="#4CAF50"
+                        android:tag="test1_a8_13"
                         android:text="13.타박상이나 출혈이 나도록 찌르거나 쳤다." />
 
                     <RadioButton
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:buttonTint="#4CAF50"
+                        android:tag="test1_a8_14"
                         android:text="14.의도적으로 상처가 치료되는 것을 막았다." />
 
                     <RadioButton
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:buttonTint="#4CAF50"
+                        android:tag="test1_a8_15"
                         android:text="15.상처를 얻기 위한 의도로 싸움을 하거나 다른 공격적인 행동을 하였다." />
 
                 </RadioGroup>
@@ -258,6 +282,7 @@
                         android:layout_height="wrap_content"
                         android:layout_marginEnd="10dp"
                         android:buttonTint="#4CAF50"
+                        android:tag="test1_a9_1"
                         android:text="1.아무도 모른다." />
 
                     <RadioButton
@@ -265,6 +290,7 @@
                         android:layout_height="wrap_content"
                         android:layout_marginEnd="10dp"
                         android:buttonTint="#4CAF50"
+                        android:tag="test1_a9_2"
                         android:text="2.몇몇의 사람들" />
 
                     <RadioButton
@@ -272,6 +298,7 @@
                         android:layout_height="wrap_content"
                         android:layout_marginEnd="10dp"
                         android:buttonTint="#4CAF50"
+                        android:tag="test1_a9_3"
                         android:text="3.대부분의 사람" />
 
 
@@ -304,42 +331,49 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:buttonTint="#4CAF50"
+                        android:tag="test1_a10_1"
                         android:text="1.친구" />
 
                     <RadioButton
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:buttonTint="#4CAF50"
+                        android:tag="test1_a10_2"
                         android:text="2.심리학자/정신의학자" />
 
                     <RadioButton
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:buttonTint="#4CAF50"
+                        android:tag="test1_a10_3"
                         android:text="3.다른 정신건강 전문가" />
 
                     <RadioButton
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:buttonTint="#4CAF50"
+                        android:tag="test1_a10_4"
                         android:text="4.전화상담원" />
 
                     <RadioButton
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:buttonTint="#4CAF50"
+                        android:tag="test1_a10_5"
                         android:text="5.가족 구성원" />
 
                     <RadioButton
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:buttonTint="#4CAF50"
+                        android:tag="test1_a10_6"
                         android:text="6.학교 상담사" />
 
                     <RadioButton
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:buttonTint="#4CAF50"
+                        android:tag="test1_a10_7"
                         android:text="7.기타" />
 
                 </RadioGroup>
@@ -371,90 +405,105 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:buttonTint="#4CAF50"
+                        android:tag="test1_a11_1"
                         android:text="1.손목" />
 
                     <RadioButton
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:buttonTint="#4CAF50"
+                        android:tag="test1_a11_2"
                         android:text="2.손" />
 
                     <RadioButton
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:buttonTint="#4CAF50"
+                        android:tag="test1_a11_3"
                         android:text="3.손가락" />
 
                     <RadioButton
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:buttonTint="#4CAF50"
+                        android:tag="test1_a11_4"
                         android:text="4.종아리 혹은 발목" />
 
                     <RadioButton
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:buttonTint="#4CAF50"
+                        android:tag="test1_a11_5"
                         android:text="5.허벅지" />
 
                     <RadioButton
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:buttonTint="#4CAF50"
+                        android:tag="test1_a11_6"
                         android:text="6.복부 혹은 흉부" />
 
                     <RadioButton
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:buttonTint="#4CAF50"
+                        android:tag="test1_a11_7"
                         android:text="7.등" />
 
                     <RadioButton
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:buttonTint="#4CAF50"
+                        android:tag="test1_a11_8"
                         android:text="8.머리" />
 
                     <RadioButton
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:buttonTint="#4CAF50"
+                        android:tag="test1_a11_9"
                         android:text="9.발" />
 
                     <RadioButton
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:buttonTint="#4CAF50"
+                        android:tag="test1_a11_10"
                         android:text="10.얼굴" />
 
                     <RadioButton
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:buttonTint="#4CAF50"
+                        android:tag="test1_a11_11"
                         android:text="11.입술 혹은 혀" />
 
                     <RadioButton
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:buttonTint="#4CAF50"
+                        android:tag="test1_a11_12"
                         android:text="12.어깨 혹은 목" />
 
                     <RadioButton
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:buttonTint="#4CAF50"
+                        android:tag="test1_a11_13"
                         android:text="13.유방" />
 
                     <RadioButton
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:buttonTint="#4CAF50"
+                        android:tag="test1_a11_14"
                         android:text="14.생식기 혹은 직장" />
 
                     <RadioButton
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:buttonTint="#4CAF50"
+                        android:tag="test1_a11_15"
                         android:text="15.기타" />
 
                 </RadioGroup>
@@ -486,42 +535,49 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:buttonTint="#4CAF50"
+                        android:tag="test1_a12_1"
                         android:text="1.자신의 방" />
 
                     <RadioButton
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:buttonTint="#4CAF50"
+                        android:tag="test1_a12_2"
                         android:text="2.화장실" />
 
                     <RadioButton
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:buttonTint="#4CAF50"
+                        android:tag="test1_a12_3"
                         android:text="3.공원" />
 
                     <RadioButton
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:buttonTint="#4CAF50"
+                        android:tag="test1_a12_4"
                         android:text="4.골목길" />
 
                     <RadioButton
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:buttonTint="#4CAF50"
+                        android:tag="test1_a12_5"
                         android:text="5.친구의 집" />
 
                     <RadioButton
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:buttonTint="#4CAF50"
+                        android:tag="test1_a12_6"
                         android:text="6.학교 내" />
 
                     <RadioButton
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:buttonTint="#4CAF50"
+                        android:tag="test1_a12_7"
                         android:text="7.기타 다른 장소" />
 
 

@@ -29,10 +29,12 @@
                     android:id="@+id/test2_title"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="(2) 자해 심각성"
-                    android:textSize="30dp"
+                    android:layout_marginStart="24dp"
+                    android:layout_marginTop="24dp"
+                    android:text="Part2. 자해심각성"
+                    android:textSize="24sp"
                     android:textStyle="bold"
-                    app:layout_constraintLeft_toLeftOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
                     app:layout_constraintTop_toTopOf="parent" />
 
                 <TextView
@@ -65,6 +67,7 @@
                         android:enabled="true"
                         android:focusableInTouchMode="false"
                         android:saveEnabled="true"
+                        android:tag="test2_a13_1"
                         android:text="1.그렇다." />
 
                     <RadioButton
@@ -75,6 +78,7 @@
                         android:enabled="true"
                         android:focusableInTouchMode="false"
                         android:saveEnabled="true"
+                        android:tag="test2_a13_2"
                         android:text="2.아니다." />
 
                 </RadioGroup>
@@ -105,12 +109,14 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:buttonTint="#4CAF50"
+                        android:tag="test2_a14_1"
                         android:text="1.그렇다." />
 
                     <RadioButton
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:buttonTint="#4CAF50"
+                        android:tag="test2_a14_2"
                         android:text="2.아니다." />
 
                 </RadioGroup>
@@ -143,6 +149,7 @@
                         android:layout_height="wrap_content"
                         android:layout_marginEnd="10dp"
                         android:buttonTint="#4CAF50"
+                        android:tag="test2_a15_1"
                         android:text="1.1회" />
 
                     <RadioButton
@@ -150,6 +157,7 @@
                         android:layout_height="wrap_content"
                         android:layout_marginEnd="10dp"
                         android:buttonTint="#4CAF50"
+                        android:tag="test2_a15_2"
                         android:text="2.2-3회" />
 
                     <RadioButton
@@ -157,6 +165,7 @@
                         android:layout_height="wrap_content"
                         android:layout_marginEnd="10dp"
                         android:buttonTint="#4CAF50"
+                        android:tag="test2_a15_3"
                         android:text="3.4-5회" />
 
                     <RadioButton
@@ -164,6 +173,7 @@
                         android:layout_height="wrap_content"
                         android:layout_marginEnd="10dp"
                         android:buttonTint="#4CAF50"
+                        android:tag="test2_a15_4"
                         android:text="3.5회 이상" />
 
                 </RadioGroup>
@@ -195,12 +205,14 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:buttonTint="#4CAF50"
+                        android:tag="test2_a16_1"
                         android:text="1.그렇다" />
 
                     <RadioButton
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:buttonTint="#4CAF50"
+                        android:tag="test2_a16_2"
                         android:text="2.아니다." />
 
                 </RadioGroup>
@@ -232,12 +244,14 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:buttonTint="#4CAF50"
+                        android:tag="test2_17_1"
                         android:text="1.그렇다." />
 
                     <RadioButton
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:buttonTint="#4CAF50"
+                        android:tag="test2_17_2"
                         android:text="2.아니다." />
 
                 </RadioGroup>
@@ -269,12 +283,14 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:buttonTint="#4CAF50"
+                        android:tag="test2_a18_1"
                         android:text="1.그렇다." />
 
                     <RadioButton
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:buttonTint="#4CAF50"
+                        android:tag="test2_a18_2"
                         android:text="2.아니다." />
 
 
