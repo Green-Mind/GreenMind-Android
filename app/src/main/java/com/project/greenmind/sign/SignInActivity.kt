@@ -62,6 +62,10 @@ class SignInActivity : AppCompatActivity() {
         btn_googleSignIn.setOnClickListener {
             signIn()
         }
+        btn_login.setOnClickListener{
+            val signInIntent = Intent(this, MainActivity::class.java)
+            startActivity(signInIntent)
+        }
     }
 
     private fun signIn() {

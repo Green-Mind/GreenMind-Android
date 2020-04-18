@@ -31,6 +31,7 @@ class GraphResult  : AppCompatActivity() {
 
         //Part1
         val entries = ArrayList<Entry>()
+        val entries1 =ArrayList<Entry>()
 
         //Part2
         entries.add(Entry(1f, 10f))
@@ -38,8 +39,15 @@ class GraphResult  : AppCompatActivity() {
         entries.add(Entry(3f, 7f))
         entries.add(Entry(4f, 20f))
 
+        //Part2
+        entries1.add(Entry(1f, 1f))
+        entries1.add(Entry(2f, 12f))
+        entries1.add(Entry(3f, 10f))
+        entries1.add(Entry(4f, 4f))
+
         //Part3
         val vl = LineDataSet(entries, "My Type")
+        val va = LineDataSet(entries, "Your Type")
 
         //Part4
         vl.setDrawValues(false)
@@ -48,11 +56,17 @@ class GraphResult  : AppCompatActivity() {
         //vl.fillColor = R.color.gray
         //vl.fillAlpha = R.color.red
 
+        va.setDrawValues(false)
+        va.setDrawFilled(true)
+        va.lineWidth = 3f
+
         //Part5
         lineChart.xAxis.labelRotationAngle = 0f
 
         //Part6
         lineChart.data = LineData(vl)
+        lineChart.data = LineData(va)
+
 
         //Part7
         lineChart.axisRight.isEnabled = false
