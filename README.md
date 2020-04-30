@@ -8,3 +8,5 @@
 
 # Project period
 February 17, 2020 - April 30, 2020
+
+### Run the emulator
