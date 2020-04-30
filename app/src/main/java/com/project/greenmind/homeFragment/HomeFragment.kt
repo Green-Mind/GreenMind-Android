@@ -17,7 +17,7 @@ import com.project.greenmind.homeFragment.home_result_rv.ResultAdapter
 import com.project.greenmind.homeFragment.home_result_rv.ResultRepository
 import com.project.greenmind.sign.SignInActivity
 import kotlinx.android.synthetic.main.fragment_home.*
-
+import kotlinx.android.synthetic.main.fragment_home.view.*
 
 
 /**
@@ -30,6 +30,7 @@ class HomeFragment : Fragment() {
     private val resultRepository = ResultRepository()
 
     private lateinit var signout : Button
+    private lateinit var fake : View
 
 
     override fun onCreateView(
@@ -40,6 +41,12 @@ class HomeFragment : Fragment() {
 
         val resultView = inflater.inflate(R.layout.fragment_home, container, false)
 
+//        fake=resultView.findViewById(R.id.fake_btn)
+//
+//        fake.setOnClickListener{
+//            val intent = Intent(getActivity(), fake_result::class.java)
+//            startActivity(intent)
+//        }
         rvResult = resultView.findViewById(R.id.rv_home_result_list)
         rvAdapter = ResultAdapter(requireContext())
         rvResult.adapter = rvAdapter

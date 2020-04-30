@@ -21,30 +21,30 @@ class TestActivity2 : AppCompatActivity() {
         }
 
         // RadioGroup
-        test2_a13.setOnCheckedChangeListener { group, checkedId ->
-            val radio: RadioButton = findViewById(checkedId)
-            var a1 = radio.tag.toString().toInt()
-        }
-        test2_a14.setOnCheckedChangeListener { group, checkedId ->
-            val radio: RadioButton = findViewById(checkedId)
-            var a1 = radio.tag.toString().toInt()
-        }
-        test2_a15.setOnCheckedChangeListener { group, checkedId ->
-            val radio: RadioButton = findViewById(checkedId)
-            var a1 = radio.tag.toString().toInt()
-        }
-        test2_a16.setOnCheckedChangeListener { group, checkedId ->
-            val radio: RadioButton = findViewById(checkedId)
-            var a1 = radio.tag.toString().toInt()
-        }
-        test2_a17.setOnCheckedChangeListener { group, checkedId ->
-            val radio: RadioButton = findViewById(checkedId)
-            var a1 = radio.tag.toString().toInt()
-        }
-        test2_a18.setOnCheckedChangeListener { group, checkedId ->
-            val radio: RadioButton = findViewById(checkedId)
-            var a1 = radio.tag.toString().toInt()
-        }
+//        test2_a13.setOnCheckedChangeListener { group, checkedId ->
+//            val radio: RadioButton = findViewById(checkedId)
+//            var a1 = radio.tag.toString().toInt()
+//        }
+//        test2_a14.setOnCheckedChangeListener { group, checkedId ->
+//            val radio: RadioButton = findViewById(checkedId)
+//            var a1 = radio.tag.toString().toInt()
+//        }
+//        test2_a15.setOnCheckedChangeListener { group, checkedId ->
+//            val radio: RadioButton = findViewById(checkedId)
+//            var a1 = radio.tag.toString().toInt()
+//        }
+//        test2_a16.setOnCheckedChangeListener { group, checkedId ->
+//            val radio: RadioButton = findViewById(checkedId)
+//            var a1 = radio.tag.toString().toInt()
+//        }
+//        test2_a17.setOnCheckedChangeListener { group, checkedId ->
+//            val radio: RadioButton = findViewById(checkedId)
+//            var a1 = radio.tag.toString().toInt()
+//        }
+//        test2_a18.setOnCheckedChangeListener { group, checkedId ->
+//            val radio: RadioButton = findViewById(checkedId)
+//            var a1 = radio.tag.toString().toInt()
+//        }
     }
     @SuppressLint("MissingSuperCall")
     override fun onActivityResult(requestCode: Int, resultCode: Int, data: Intent?) {
